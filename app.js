@@ -13,7 +13,7 @@ function myFunction() {
   function exitMobile() {
     var x = document.getElementById("exitMobile");
     if (x.style.display === "block") {
-      x.style.display = "block";
+      x.style.display = "none";
     } else {
       var luk = document.getElementById("navlist");
       luk.style.display = "none";
