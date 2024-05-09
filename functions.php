@@ -13,4 +13,3 @@ function HolyBeans_file() {
 add_action ('wp_enqueue_scripts', 'HolyBeans_file', 'init');
 
 
-add_theme_support( 'post-thumbnails' );
