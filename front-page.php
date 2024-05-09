@@ -44,7 +44,7 @@ while(have_posts()) {
     </div>
 
     <div class="card">
-        <img src="./assets/eksempel.jpg"  id="cardImg">
+        <img src="<?php echo get_the_post_thumbnail_url('./eksempel.jpg'); ?>"  id="cardImg">
             <div class="kategori">
           <p>Kategori</p>
             </div>
