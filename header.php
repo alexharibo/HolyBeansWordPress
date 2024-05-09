@@ -53,7 +53,7 @@
         
          
         <div class="logo">
-         <img src="./assets/logo.png" id="logo">
+         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo">
         </div>
        
 
