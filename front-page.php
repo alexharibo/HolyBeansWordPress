@@ -44,7 +44,7 @@ while(have_posts()) {
     </div>
 
     <div class="card">
-        <img src="./assets/eksempel.jpg" id="cardImg">
+        <img src="./assets/eksempel.jpg"  id="cardImg">
             <div class="kategori">
           <p>Kategori</p>
             </div>
