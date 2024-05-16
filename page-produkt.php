@@ -14,7 +14,7 @@ while(have_posts()) {
     <section class="produkttest">
 
 
-    <?php echo do_shortcode('[products columns=4 limit=4 category=clothing]'); ?>
+    <?php echo do_shortcode('[products columns=4 limit=4 category=hoodies]'); ?>
 
     <p>Test</p>
 </section>

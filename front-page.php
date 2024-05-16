@@ -65,6 +65,8 @@ while(have_posts()) {
     <section class="produkttest">
 
     <?php echo do_shortcode('[products columns=4 limit=4]'); ?>
+
+    
 </section>
 
 
