@@ -1,0 +1,140 @@
+@media only screen and (max-width:430px) {
+
+    
+    .logo {
+        color:white;
+    }
+        .headerStylingWebsite {
+            display:none;
+            
+        }
+    
+        .mobile {
+            display:block;
+        }
+    
+        .headerStylingMobile {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:#fdf7e2;
+            padding:3%;
+    
+        }
+    
+    
+    
+        .logo {
+            color:black;
+        }
+    
+        #logo {
+            width:50%;
+            padding-left:35%;
+        }
+    
+      
+    
+    .topBanner {
+        display:flex;
+        font-size:0.5rem;
+        padding:2%;
+    }
+    
+    .topBanner p {
+        padding-left:3%;
+    }
+    
+    .fa-bars {
+        color:rgb(255, 255, 255);
+        padding-right:1rem;
+    }
+    
+    #navlist {
+        display:none;
+        position:absolute;
+        width:100%;
+        top:0;
+        background-color:#f5edd2;
+        height:100vh;
+    }
+    
+    
+    
+    #navlist a {
+        display:block;
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      padding-bottom:2%;
+      font-size:1.5rem;
+    }
+    
+    #exitMobile {
+        display:block;
+        padding:3%;
+        padding-top:20%;
+    }
+    
+    
+    .container {
+        padding: 0 5%;
+        margin-top:5%;
+    }
+    
+    
+    #exitIcon {
+        color:black;
+        font-size:1.2rem;
+        padding-left:92%;
+    }
+    
+    #menuIkon {
+        color:black;
+    }
+    
+    
+    .cards img {
+        width:100%;
+        max-width:390px;
+        overflow:hidden;
+    }
+    
+    
+    
+    .kategori {
+    text-align:center;
+    width:30%;
+    background-color:#7b6d5b;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius:5px;
+    color:white;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:1%;
+    }
+    
+    
+    #kategoriList {
+        display:flex;
+    }
+    
+    .billedeTekst {
+        padding:3%;
+       
+    }
+    
+    .card {
+        background-color:#f5edd2;
+        margin-top:5%;
+    }
+    
+    #cardImg {
+    width:100%;
+    }
+    
+    
+        }
+    
+    

@@ -8,7 +8,10 @@
 
     <script src="https://kit.fontawesome.com/8678aa8a7f.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-    <link rel="stylesheet" href="responsive/iphonepro.css">
+    
+    <link rel="stylesheet" href="responsive/iphone12.css">
+    <link rel="stylesheet" href="responsive/iphone14.css">
+    <link rel="stylesheet" href="responsive/ipadpro.css">
     <link rel="stylesheet" href="css/style.css">
 
 
