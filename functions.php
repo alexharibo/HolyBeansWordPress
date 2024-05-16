@@ -15,7 +15,7 @@ function HolyBeans_file() {
 add_action ('wp_enqueue_scripts', 'HolyBeans_file', 'init');
 
 
-// WooCommerce
+// Fjerner WooCommerces styles
 add_theme_support('woocommerce');
 
 function remove_woocommerce_styles($enqueue_styles) {
