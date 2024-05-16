@@ -5,10 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <script src="https://kit.fontawesome.com/8678aa8a7f.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="responsive/iphonepro.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <title>HolyBeans</title>
 </head>

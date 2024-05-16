@@ -1,0 +1,108 @@
+body {
+    margin:0;
+    font-family: 'Poppins';
+   background-color:#fdf7e2;
+}
+
+html {
+    margin:0;
+}
+
+h1 {
+    color:rgb(10, 70, 14);
+}
+
+h2 {
+    margin:0;
+}
+
+p {
+    margin:2px;
+}
+
+.mobile {
+    display:none;
+}
+
+.headerStylingWebsite {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(10, 70, 14);
+    color:white;
+   padding:0 1%;
+   padding:0.5%;
+}
+
+ul {
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.website li {
+    display:flex;
+    flex-direction: row;
+    text-indent: 1rem;
+    
+}
+
+
+
+
+
+.koeb {
+    display:block;
+    padding-right:2%;
+    text-align: center;
+
+}
+
+#purchase {
+    font-size:1rem;
+    padding-top:15px;
+    margin:5px;
+}
+
+.topBanner {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    font-size:0.6rem;
+    color:white;
+    background-color:rgb(14, 13, 27);
+    padding:0.1%;
+}
+
+.topBanner p {
+    padding-right:1%;
+    font-style: italic;
+}
+
+.highlighted {
+    font-weight:bolder;
+}
+
+#navlist {
+    display:block;
+}
+
+#forsideBillede {
+    width:100%;
+    height:500px;
+    object-fit: cover;
+}
+
+.indhold {
+    margin-top:7%;
+    padding: 0 5%;
+}
+
+.produkttest {
+    padding:0 8%;
+}
+
+
+
+
+/* Alt stying med WooCommerce */
