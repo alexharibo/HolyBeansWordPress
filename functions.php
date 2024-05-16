@@ -26,3 +26,5 @@ function remove_woocommerce_styles($enqueue_styles) {
 }
 
 add_filter ('woocommerce_queue_styles', 'remove_woocommerce_styles');
+
+
