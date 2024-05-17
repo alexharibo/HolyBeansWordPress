@@ -117,6 +117,19 @@ background-color:#e2dbc8;
 padding: 0.5 7%;
 }
 
+.kategoriUnderBillede {
+    text-align:center;
+    width:30%;
+    background-color:#7b6d5b;
+ margin-left:2%;
+    margin-right:3%;
+    border-radius:5px;
+    color:white;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:1%;
+    }
+
 #kategoriList2 {
     display:flex;
     background-color:#433737;
@@ -134,10 +147,15 @@ padding: 1% 7%;
         margin-top:5%;
         width:80%;
         overflow:hidden;
+        background-color: #F6EDCF;
     }
 
     #cardImg {
         width:100%;
+    }
+
+    .billedeTekst {
+        padding:2%;
     }
 
 /* Alt stying med WooCommerce */

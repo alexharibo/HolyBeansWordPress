@@ -39,7 +39,7 @@ while(have_posts()) {
 
 <div class="card">
   <img src="<?php echo get_theme_file_uri('/assets/eksempel.jpg') ?>" id="cardImg">
-      <div class="kategori">
+  <div class="kategoriUnderBillede">
     <p>Kategori</p>
       </div>
 
@@ -56,7 +56,7 @@ while(have_posts()) {
 
     <div class="card">
         <img src="<?php echo get_theme_file_uri('/assets/eksempel.jpg') ?>"  id="cardImg">
-            <div class="kategori">
+            <div class="kategoriUnderBillede">
           <p>Kategori</p>
             </div>
       
