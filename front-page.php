@@ -35,6 +35,7 @@ while(have_posts()) {
     
 <div class="container">
 
+<section class="oko">
 
 <div class="card">
   <img src="<?php echo get_theme_file_uri('/assets/eksempel.jpg') ?>" id="cardImg">
@@ -69,9 +70,10 @@ while(have_posts()) {
           
           </div>
           </div>
+</section>
     </div>
 
-
+<!-- test -->
     <section class="produkttest">
 
     <?php echo do_shortcode('[products columns=4 limit=4]'); ?>

@@ -114,14 +114,31 @@ ul {
 #kategoriList {
 display:flex;
 background-color:#e2dbc8;
+padding: 0.5 7%;
 }
 
 #kategoriList2 {
     display:flex;
     background-color:#433737;
     color:white;
+padding: 1% 7%;
     }
 
+    .oko {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .card {
+        margin-top:5%;
+        width:80%;
+        overflow:hidden;
+    }
+
+    #cardImg {
+        width:100%;
+    }
 
 /* Alt stying med WooCommerce */
 
