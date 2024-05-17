@@ -1,9 +1,9 @@
 @media only screen and (max-width:390px) {
 
     
-.logo {
-    color:white;
-}
+    #logo {
+        margin-left:2%;
+    }
     .headerStylingWebsite {
         display:none;
         

@@ -1,5 +1,6 @@
+
 <?php wp_head(); ?>
-<!DOCTYPE html>
+
 
 <html lang="en">
 <head>
@@ -32,6 +33,15 @@
     <!-- Header til website -->
     <header class="website">
         <div class="headerStylingWebsite">
+        <div class="koeb">
+            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
+            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
+        </div>
+        <div class="logo">
+         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo">
+         
+        </div>
+
             <ul class="navlist">
                 <li>Kaffe</li>
                 <li>Kaffeudstyr</li>
@@ -42,10 +52,7 @@
                  </ul>
      
 
-        <div class="koeb">
-            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
-            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
-        </div>
+     
         
     
     </div>

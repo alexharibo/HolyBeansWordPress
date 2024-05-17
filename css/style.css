@@ -25,26 +25,31 @@ p {
 }
 
 .headerStylingWebsite {
+    display:block;
+    background-color:#FEF7E0;
+    color:#000000;
+
+}
+
+#logo {
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:rgb(10, 70, 14);
-    color:white;
-   padding:0 1%;
-   padding:0.5%;
+    margin:auto;
+    margin-top:0.5%;
+    margin-bottom:1%;
 }
 
 ul {
     display:flex;
     text-decoration: none;
     list-style: none;
+    justify-content: center;
+    margin-right:2%;
 }
 
 .website li {
-    display:flex;
-    flex-direction: row;
     text-indent: 1rem;
-    
+    text-align: center;
+   
 }
 
 
@@ -54,7 +59,7 @@ ul {
 .koeb {
     display:block;
     padding-right:2%;
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -70,8 +75,8 @@ ul {
     justify-content: center;
     font-size:0.6rem;
     color:white;
-    background-color:rgb(14, 13, 27);
-    padding:0.1%;
+    background-color:#7F706B;
+    padding:0.5%;
 }
 
 .topBanner p {
@@ -106,7 +111,16 @@ ul {
     padding: 0 7%;
 }
 
+#kategoriList {
+display:flex;
+background-color:#e2dbc8;
+}
 
+#kategoriList2 {
+    display:flex;
+    background-color:#433737;
+    color:white;
+    }
 
 
 /* Alt stying med WooCommerce */

@@ -19,8 +19,18 @@ while(have_posts()) {
                   <div class="kategori">
                     <p>Kategori</p>
                       </div>
-                      
-    
+    </div>
+
+    <div id="kategoriList2">
+        <div class="kategori">
+            <p>Kategori</p>
+              </div>
+              <div class="kategori">
+                <p>Kategori</p>
+                  </div>
+                  <div class="kategori">
+                    <p>Kategori</p>
+                      </div>
     </div>
     
 <div class="container">
