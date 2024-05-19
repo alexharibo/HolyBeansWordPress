@@ -57,7 +57,12 @@
     top:0;
     background-color:#f5edd2;
     height:100vh;
+    transition:5s ease-in-out;
+    
 }
+
+
+
 
 
 
@@ -74,7 +79,10 @@
     display:block;
     padding:3%;
     padding-top:20%;
+
 }
+
+
 
 
 .container {
