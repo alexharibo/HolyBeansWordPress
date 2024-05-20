@@ -99,6 +99,8 @@
 
 #menuIkon {
     color:black;
+    font-size:20px;
+   
 }
 
 
@@ -145,6 +147,10 @@ margin-top:1%;
 width:100%;
 }
 
+.carousel img {
+    width:calc(100% / 2);
+}
+
 /* Alt med wocommerce */
 
 .columns-4  {
@@ -156,6 +162,35 @@ width:100%;
 margin:auto;
 }
 
+video {
+    width:100%;
+}
+
+.woocommerce ul.products li.product .button {
+
+    color:white;
+    background-color:#7F706B;
+    width:90%;
+}
+
+h3,
+.woocommerce-loop-product__title,
+.woocommerce-loop-category__title {
+    padding: 0.20em 0;
+    margin: 0;
+    font-size: 0.5em;
+    color:black;
+}
+
+.woocommerce-loop-product__title {
+    font-size:0.2em;
+}
+
+.woocommerce img {
+    border-radius:15px;
+    height:50px;
+
+}
 
 
     }
