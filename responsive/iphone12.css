@@ -58,7 +58,7 @@
     background-color:#f5edd2;
     height:100vh;
     transition:5s ease-in-out;
-    
+    z-index:1;
 }
 
 
