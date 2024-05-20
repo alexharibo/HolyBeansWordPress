@@ -38,16 +38,17 @@
             <i class="fa-solid fa-cart-shopping" id="purchase"></i>
         </div>
         <div class="logo">
-         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo">
-         
+        <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>
+     
+
         </div>
 
             <ul class="navlist">
-                <li>Kaffe</li>
+            <a href="<?php echo site_url('') ?>">    <li>Kaffe</li> </a>
                 <li>Kaffeudstyr</li>
                 <li>Kurser og events</li>
                 <li>Erhverv</li>
-                <li>Kaffeblog</li>
+                <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
                 <li>Om os</li>
                  </ul>
      

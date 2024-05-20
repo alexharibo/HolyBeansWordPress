@@ -7,72 +7,57 @@ while(have_posts()) {
     the_post(); ?>
 
 
-
-
-    
 <div class="container">
+<div id="introTekst">
+<?php the_content() ?>
+</div>
+</div>
 
-<section class="oko">
+<div id="introVideo">
+<video controls autoplay muted infinite>
+  <source src="<?php echo get_theme_file_uri('/assets/holyintro.mp4') ?>" type="video/mp4">
 
-<div class="card">
-  <img src="<?php echo get_theme_file_uri('/assets/eksempel.jpg') ?>" id="cardImg">
-  <div class="kategoriUnderBillede">
-    <p>Kategori</p>
-      </div>
+</video>
 
-   
-    <div class="billedeTekst">
-    <h2>Kaffe med omtanke</h2>
-    <p>Hos HolyBeans er vi bevidste om det aftryk, 
-        vi sætter i verden, og de valg vi træffer.
-        Vi kalder det kaffe med omtanke. Derfor arbejder vi fokuseret med bæredygtighed.
-    </p>
-    
-    </div>
-    </div>
+    <section class="container">
+<section class="popularProducts">
+<h2>Populære kaffeprodukter</h2>
+
+<div class="wrapper">
+<div class="carousel">
 
 
-<!-- test -->
+
+<?php echo do_shortcode('[products columns=4 limit=4 category=popular ]'); ?>
 
 
-    <!-- <section class="produkttest"> -->
 
 
-    <!-- <?php echo do_shortcode('[products columns=4 limit=4]'); ?> -->
 
-    
+</div>
+</div>
+
 </section>
 
-
-<!-- WP Query til at oprette mine ACF fields på siderne -->
-<!-- <?php  -->
-//  $kategori1 =  new WP_Query(
-    // array(
-        // 'posts_per_page' => 1,
-        // 'post_type' => 'kategori1',
-    // )
-//  );
-
-//  while ($kategori1->have_posts()) {
-    // $kategori1->the_post();  ?>
+<section class="lastestBlog">
+<h2>Seneste på kaffebloggen</h2>
+<?php 
+$homePosts = new WP_Query(
+  array(
+      'posts_per_page' => 1,
+      'orderby' => 'date',
+  )
+);
 
 
-
-<!-- <?php echo the_title() ?> -->
-<!-- <p>test</p> -->
-        
-<!-- <p><?php echo get_the_content(); ?> -->
-<!-- </p> -->
-
-    </div>
-    
+while ($homePosts->have_posts()) {
+  $homePosts->the_post(); ?>
+  <li><?php the_title() ?><li>
+<?php }
+?>
 
 
-    <?php }
-    ?>
-
-
-
+</section>
 
 
 </body>
