@@ -39,3 +39,27 @@ function wp_enqueue_woocommerce_style () {
 }
 
 add_action ('wp_enqueue_scripts' , 'wp_enqueue_woocommerce_style' );
+
+
+// Custom Post Types
+
+
+function HolyBeans_post_types () {
+    register_post_type('kaffe', array(
+           'supports' => array('title', 'editor', 'excerpt'),
+           'rewrite' => array('slug' => 'arrangement2'),
+           'public' => true,
+           'labels' => array(
+               'name' => 'Kaffe',
+               'add_new_item' => 'Tilføj kaffe',
+               'edit_item' => 'Ændr kaffe',
+               'all_items' => 'Alle kaffer',
+               'singular_name' => 'Kaffe'
+           ),
+           'menu_icon' => 'dashicons-star-filled'
+       ));
+
+
+    }
+
+    add_action('init', 'HolyBeans_post_types');
