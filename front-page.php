@@ -20,15 +20,20 @@ while(have_posts()) {
 </video>
 
     <section class="container">
-<section class="popularProducts">
-<h2>Populære kaffeprodukter</h2>
+
 
 <div class="wrapper">
 <div class="carousel">
 
+<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+
+<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+
+<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+
+<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
 
 
-<?php echo do_shortcode('[products columns=4 limit=4 category=popular ]'); ?>
 
 
 
@@ -37,7 +42,14 @@ while(have_posts()) {
 </div>
 </div>
 
+
+
+
+<section class="popularProducts">
+<h2>Populære kaffeprodukter</h2>
+<?php echo do_shortcode('[products columns=6 limit=4 category=popular ]'); ?>
 </section>
+
 
 <section class="lastestBlog">
 <h2>Seneste på kaffebloggen</h2>
@@ -52,7 +64,24 @@ $homePosts = new WP_Query(
 
 while ($homePosts->have_posts()) {
   $homePosts->the_post(); ?>
-  <li><?php the_title() ?><li>
+ <section class="oko">
+
+<div class="card">
+  <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
+  <div class="kategoriUnderBillede">
+    <p>Kategori</p>
+      </div>
+
+   
+    <div class="billedeTekst">
+    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <p><?php the_content(); ?>
+    </p>
+    
+    </div>
+    </div>
+
+</section>
 <?php }
 ?>
 

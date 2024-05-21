@@ -1,6 +1,9 @@
+
+
+
 body {
     margin:0;
-    font-family: 'Poppins';
+    font-family: 'Comfortaa';
    background-color:#fdf7e2;
 }
 
@@ -55,6 +58,8 @@ ul {
 a {
     text-decoration: none;
     color:black;
+
+
 }
 
 
@@ -184,7 +189,7 @@ padding: 1% 7%;
     }
 
     .carousel img {
-        height:200px;
+        height:400px;
         object-fit:cover;
         margin-left:14px;
         width:calc(100% / 3);

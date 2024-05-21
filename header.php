@@ -9,12 +9,14 @@
 
     <script src="https://kit.fontawesome.com/8678aa8a7f.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="responsive/iphone12.css">
     <link rel="stylesheet" href="responsive/iphone14.css">
     <link rel="stylesheet" href="responsive/ipadpro.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
     <title>HolyBeans</title>
 </head>
@@ -25,7 +27,7 @@
 <p><span class="highlighted"> 4,7 stjerner</span> på TrustPilot</p>
 </div>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
 
 
@@ -81,10 +83,19 @@
         <div id="exitMobile">
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
-      <a href="#">Forside</a>
-      <a href="#">Forside</a>
-      <a href="#">Forside</a>
+      <a href="#">Kaffe</a>
+      <a href="#">Kaffeudstyr</a>
+      <a href="#">Kurser og events</a>
+      <a href="#">Erhverv</a>
+      <a href="#">Kaffeblog</a>
+      <a href="#">Om os</a>
       
+
+      <div id="iconsToNavlist">
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-bag-shopping"></i>
+      <i class="fa-solid fa-magnifying-glass"></i>
+</div>
     </div>
 
 
