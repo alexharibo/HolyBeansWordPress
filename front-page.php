@@ -87,6 +87,7 @@ while ($homePosts->have_posts()) {
 
 
 </section>
+</section>
 
 
 </body>
