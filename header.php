@@ -46,7 +46,7 @@
         </div>
 
             <ul class="navlist">
-            <a href="<?php echo site_url('') ?>">    <li>Kaffe</li> </a>
+            <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
                 <li>Kaffeudstyr</li>
                 <li>Kurser og events</li>
                 <li>Erhverv</li>

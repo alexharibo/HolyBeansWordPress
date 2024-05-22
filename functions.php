@@ -26,7 +26,9 @@ function remove_woocommerce_styles($enqueue_styles) {
 }
 
 add_filter ('woocommerce_enqueue_styles', 'remove_woocommerce_styles');
+// 		add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
+	
 
 // Laver min egen woocommerce style
 
