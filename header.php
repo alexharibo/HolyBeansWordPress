@@ -68,7 +68,7 @@
         
          
         <div class="logo">
-         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo">
+        <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>
         </div>
        
 
@@ -84,11 +84,11 @@
         <div id="exitMobile">
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
-      <a href="#">Kaffe</a>
+        <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
       <a href="#">Kaffeudstyr</a>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
-      <a href="#">Kaffeblog</a>
+      <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
       <a href="#">Om os</a>
       
 

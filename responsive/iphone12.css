@@ -72,6 +72,11 @@
     height:100vh;
     z-index:1;
    animation: overlay 1s;
+
+}
+
+a {
+    list-style: none;
 }
 
 #navlist a, i {
