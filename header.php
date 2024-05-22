@@ -80,6 +80,7 @@
 
 
     <div id="navlist">
+    
         <div id="exitMobile">
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
@@ -95,6 +96,7 @@
       <i class="fa-regular fa-heart"></i>
       <i class="fa-solid fa-bag-shopping"></i>
       <i class="fa-solid fa-magnifying-glass"></i>
+
 </div>
     </div>
 

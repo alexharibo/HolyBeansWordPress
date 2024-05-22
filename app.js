@@ -1,13 +1,23 @@
 // Åbner mobil-navigation
 function myFunction() {
     var x = document.getElementById("navlist");
+
     
+
     if (x.style.display === "block") {
       x.style.display = "none";
+  
+      
     } else {
-      x.style.display = "block";
+      x.style.display = "block"; 
+   
+
     }
   }
+
+
+
+
 
   // Lukker, når man trykker på exit-iconet
   function exitMobile() {
@@ -19,6 +29,8 @@ function myFunction() {
       luk.style.display = "none";
     }
   }
+
+
 
 // Image Slider
 

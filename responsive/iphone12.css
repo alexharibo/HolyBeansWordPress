@@ -64,16 +64,39 @@
     padding-right:1rem;
 }
 
-#navlist {
+#navlist  {
     display:none;
     position:absolute;
     width:100%;
-    top:0;
     background-color:#f5edd2;
     height:100vh;
-    transition:5s ease-in-out;
     z-index:1;
+   animation: overlay 1s;
 }
+
+#navlist a, i {
+    animation: overlayText 3s;
+}
+
+@keyframes overlayText {
+    0%  {
+        opacity:0%;
+    }
+   
+    100% {
+        opacity:100%
+    }
+}
+
+
+@keyframes overlay {
+    0%  {max-height:0%}
+    100% {max-height:100%}
+}
+
+
+
+
 
 #iconsToNavlist {
     display:flex;
@@ -97,8 +120,8 @@
     display:block;
     padding:3%;
     padding-top:20%;
+    transition:2s;
 }
-
 
 
 
