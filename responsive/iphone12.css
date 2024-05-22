@@ -251,7 +251,7 @@ h3,
 .woocommerce img {
     border-radius:15px;
     height:50px;
-
+    object-fit: cover;
 }
 
 .woocommerce-products-header__title {

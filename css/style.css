@@ -225,7 +225,9 @@ h3,
 
 .woocommerce img {
     border-radius:15px;
-
-
+   
+    object-fit: cover;
 }
+
+
 
