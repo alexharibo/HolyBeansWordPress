@@ -62,6 +62,9 @@ echo do_shortcode('[products columns=6 limit=20 category=specialty ]');
 
 echo do_shortcode('[products columns=6 limit=20 category=classic ]'); 
 
+echo do_shortcode('[products columns=6 limit=20 category=kaffebonner]'); 
+
+echo do_shortcode('[products columns=6 limit=20 category=gaveideer]'); 
 
 
 
