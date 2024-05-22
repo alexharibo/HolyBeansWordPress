@@ -47,7 +47,7 @@ while(have_posts()) {
 
 <section class="popularProducts">
 <h2>Populære kaffeprodukter</h2>
-<?php echo do_shortcode('[products columns=6 limit=4 category=popular ]'); ?>
+<?php echo do_shortcode('[products columns=6 limit=0 category=popular ]'); ?>
 </section>
 
 

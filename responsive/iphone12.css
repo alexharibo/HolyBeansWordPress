@@ -231,5 +231,25 @@ h3,
 
 }
 
+.woocommerce-products-header__title {
+    text-align: center;
+}
+
+#kaffeBeskrivelse {
+    text-align: center;
+    margin-bottom:5%;
+}
+
+
+
+.woocommerce-ordering {
+    margin-top:2%;
+}
+
+.orderby {
+    background-color:#fdf7e2;
+
+}
+
 
 }

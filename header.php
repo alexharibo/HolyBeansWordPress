@@ -45,14 +45,14 @@
 
         </div>
 
-            <ul class="navlist">
+            <div class="navlist">
             <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
                 <li>Kaffeudstyr</li>
                 <li>Kurser og events</li>
                 <li>Erhverv</li>
                 <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
                 <li>Om os</li>
-                 </ul>
+</div>
      
 
      

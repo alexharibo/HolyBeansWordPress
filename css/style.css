@@ -41,7 +41,7 @@ p {
     margin-bottom:1%;
 }
 
-ul {
+.navlist {
     display:flex;
     text-decoration: none;
     list-style: none;
@@ -221,5 +221,11 @@ h3,
     margin: 0;
     font-size: 0.5em;
     color:black;
+}
+
+.woocommerce img {
+    border-radius:15px;
+
+
 }
 

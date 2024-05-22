@@ -35,9 +35,9 @@ get_header( 'shop' );
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-        <p>Velkommen</p>
+        <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
         <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
-	Viser alle resultater</p>
+	Søg i produkt</p>
 <form class="woocommerce-ordering" method="get">
 	<select name="orderby" class="orderby" aria-label="Shop order">
 					<option value="menu_order"  selected='selected'>Default sorting</option>
@@ -54,8 +54,14 @@ get_header( 'shop' );
 <?php 
 
 
-
 echo do_shortcode('[products columns=6 limit=4 category=popular ]'); 
+
+echo do_shortcode('[products columns=6 limit=10 category=specialiteter ]'); 
+
+echo do_shortcode('[products columns=6 limit=20 category=specialty ]'); 
+
+
+
 
 	?>
 </header>
