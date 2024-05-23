@@ -305,5 +305,7 @@ h3,
     object-fit: cover;
 }
 
-
+.woocommerce-loop-product__title {
+    font-size:1rem;
+}
 

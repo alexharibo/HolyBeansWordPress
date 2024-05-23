@@ -63,34 +63,32 @@ get_header( 'shop' );
 	<div class="entryPoint">
 <h2>Specialty Kaffe</h2>
 <div id="entryPic2">
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+<a href="<?php echo site_url('/specialty') ?>"> 
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
 	<div class="entryPoint">
 <h2>Classic Kaffe</h2>
 <div id="entryPic3">
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+<a href="<?php echo site_url('/classic-kaffe') ?>"> 
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
 	<div class="entryPoint">
 <h2>Rå kaffebønner</h2>
 <div id="entryPic4">
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+<a href="<?php echo site_url('/raa-kaffebonner') ?>"> 
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
 
-	<div class="entryPoint">
-<h2>Abonnenter - Sort Kaffe</h2>
-<div id="entryPic5">
 
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
-</div>
-	</div>
 
 	<div class="entryPoint">
 <h2>Gaveideer</h2>
 <div id="entryPic6">
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+<a href="<?php echo site_url('/gaveideer') ?>"> 
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
 	</section>

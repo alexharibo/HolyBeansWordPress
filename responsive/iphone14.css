@@ -1,140 +1,289 @@
 @media only screen and (max-width:430px) {
 
     
-    .logo {
-        color:white;
-    }
-        .headerStylingWebsite {
-            display:none;
-            
-        }
-    
-        .mobile {
-            display:block;
-        }
-    
-        .headerStylingMobile {
-            display:flex;
-            flex-direction: row;
-            justify-content: space-between;
-            background-color:#fdf7e2;
-            padding:3%;
-    
-        }
-    
-    
-    
-        .logo {
-            color:black;
-        }
-    
-        #logo {
-            width:50%;
-            padding-left:35%;
-        }
-    
-      
-    
-    .topBanner {
-        display:flex;
-        font-size:0.5rem;
-        padding:2%;
-    }
-    
-    .topBanner p {
-        padding-left:3%;
-    }
-    
-    .fa-bars {
-        color:rgb(255, 255, 255);
-        padding-right:1rem;
-    }
-    
-    #navlist {
+    .headerStylingWebsite {
         display:none;
-        position:absolute;
-        width:100%;
-        top:0;
-        background-color:#f5edd2;
-        height:100vh;
+        
     }
-    
-    
-    
-    #navlist a {
+
+    .mobile {
         display:block;
-      text-decoration: none;
-      color:black;
-      text-align: center;
-      padding-bottom:2%;
-      font-size:1.5rem;
     }
-    
-    #exitMobile {
-        display:block;
-        padding:3%;
-        padding-top:20%;
-    }
-    
-    
-    .container {
-        padding: 0 5%;
-        margin-top:5%;
-    }
-    
-    
-    #exitIcon {
-        color:black;
-        font-size:1.2rem;
-        padding-left:92%;
-    }
-    
-    #menuIkon {
-        color:black;
-    }
-    
-    
-    .cards img {
-        width:100%;
-        max-width:390px;
-        overflow:hidden;
-    }
-    
-    
-    
-    .kategori {
-    text-align:center;
-    width:30%;
-    background-color:#7b6d5b;
-    margin-left:3%;
-    margin-right:3%;
-    border-radius:5px;
-    color:white;
-    font-weight: light;
-    padding:0.5%;
-    margin-top:1%;
-    }
-    
-    
-    #kategoriList {
+
+    .headerStylingMobile {
         display:flex;
-    }
-    
-    .billedeTekst {
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#fdf7e2;
         padding:3%;
-       
+
     }
-    
-    .card {
-        background-color:#f5edd2;
-        margin-top:5%;
+
+
+
+    .logo {
+        color:black;
     }
-    
-    #cardImg {
+
+    #logo {
+        width:50%;
+        padding-left:25%;
+    }
+
+
+    footer {
+        background-color: #ECCAA1;
+        padding:5% 7%;
+        margin-top:10%;
+        font-family:'Poppins';
+    }
+
+    #footerLogo {
+        display:block;
+        width:50%;
+        margin:auto;
+    }
+
+  
+
+.topBanner {
+    display:flex;
+    font-size:0.5rem;
+    padding:2%;
+}
+
+.topBanner p {
+    padding-left:3%;
+}
+
+.fa-bars {
+    color:rgb(255, 255, 255);
+    padding-right:1rem;
+}
+
+#navlist  {
+    display:none;
+    position:absolute;
     width:100%;
+    background-color:#f5edd2;
+    height:100vh;
+    z-index:1;
+   animation: overlay 1s;
+
+}
+
+a {
+    list-style: none;
+}
+
+#navlist a, i {
+    animation: overlayText 3s;
+}
+
+@keyframes overlayText {
+    0%  {
+        opacity:0%;
     }
-    
-    
-        }
-    
-    
+   
+    100% {
+        opacity:100%
+    }
+}
+
+
+@keyframes overlay {
+    0%  {max-height:0%}
+    100% {max-height:100%}
+}
+
+
+
+
+
+#iconsToNavlist {
+    display:flex;
+    flex-direction: row;
+    font-size:40px;
+    justify-content: space-evenly;
+    padding:5%;
+    margin-top:10%;
+}
+
+
+#navlist a {
+    display:block;
+  text-decoration: none;
+  color:black;
+ padding:5%;
+  font-size:1.5rem;
+}
+
+#exitMobile {
+    display:block;
+    padding:3%;
+    padding-top:20%;
+    transition:2s;
+}
+
+
+
+.container {
+    padding: 0 5%;
+    margin-top:5%;
+}
+
+
+#exitIcon {
+    color:black;
+    font-size:1.2rem;
+    padding-left:92%;
+}
+
+#menuIkon {
+    color:black;
+    font-size:20px;
+   
+}
+
+
+.cards img {
+    width:100%;
+    max-width:390px;
+    overflow:hidden;
+}
+
+
+
+.kategori {
+text-align:center;
+width:30%;
+background-color:#7b6d5b;
+margin-left:3%;
+margin-right:3%;
+border-radius:5px;
+color:white;
+font-weight: light;
+padding:0.5%;
+margin-top:1%;
+}
+
+
+#kategoriList {
+    display:flex;
+}
+
+.billedeTekst {
+    padding:3%;
+   
+}
+
+#mobileLinks {
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+#mobileOpening {
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+#mobileContact {
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+#mobileContact p {
+    font-size:normal;
+}
+
+footer a {
+    display:block;
+   font-weight:bolder;
+
+}
+
+.card {
+    display:block;
+    margin:auto;
+    background-color:#f5edd2;
+    margin-top:5%;
+    width:100%;
+}
+
+#cardImg {
+width:100%;
+}
+
+.carousel img {
+    width:calc(100% / 2);
+}
+
+.entrySection {
+    display:block;
+   
+}
+
+/* Alt med wocommerce */
+
+.columns-4  {
+    display:block;
+}
+
+.oko {
+    display:block;
+margin:auto;
+}
+
+video {
+    width:100%;
+}
+
+.woocommerce-loop-product__title {
+    font-size:0.5rem;
+}
+
+.woocommerce ul.products li.product .button {
+
+    color:white;
+    background-color:#7F706B;
+    width:80%;
+}
+
+h2,
+.woocommerce-loop-product__title,
+.woocommerce-loop-category__title {
+    padding: 0.20em 0;
+    margin: 0;
+    font-size: 1em;
+    color:black;
+}
+
+
+.woocommerce img {
+    border-radius:15px;
+    height:50px;
+    object-fit: cover;
+}
+
+.woocommerce-products-header__title {
+    text-align: center;
+}
+
+#kaffeBeskrivelse {
+    text-align: center;
+    margin-bottom:5%;
+}
+
+
+
+.woocommerce-ordering {
+    margin-top:2%;
+}
+
+.orderby {
+    background-color:#fdf7e2;
+
+}
+
+
+}
