@@ -15,9 +15,7 @@ h1 {
     color:rgb(10, 70, 14);
 }
 
-h2 {
-    margin:0;
-}
+
 
 p {
     margin:2px;
@@ -91,7 +89,7 @@ overflow:hidden;
 border-radius: 5px;
 
 
-border:solid red;
+border:solid #CB8580;
 }
 
 #entryPic2 {
@@ -108,7 +106,7 @@ border:solid red;
         border-radius: 5px;
         
         
-        border:solid blue;
+        border:solid #F4D597;
         }
 
         
@@ -290,13 +288,15 @@ padding: 1% 7%;
     width:90%;
 }
 
-h3,
+h2,
 .woocommerce-loop-product__title,
 .woocommerce-loop-category__title {
     padding: 0.20em 0;
     margin: 0;
-    font-size: 0.5em;
+    font-size: 1rem;
     color:black;
+    width:100%;
+    height:3%;
 }
 
 .woocommerce img {
@@ -308,4 +308,3 @@ h3,
 .woocommerce-loop-product__title {
     font-size:1rem;
 }
-
