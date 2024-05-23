@@ -36,23 +36,11 @@ get_header( 'shop' );
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
         <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
-        <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
-	Søg i produkt</p>
-<form class="woocommerce-ordering" method="get">
-	<select name="orderby" class="orderby" aria-label="Shop order">
-					<option value="menu_order"  selected='selected'>Default sorting</option>
-					<option value="popularity" >Sort by popularity</option>
-					<option value="rating" >Sort by average rating</option>
-					<option value="date" >Sort by latest</option>
-					<option value="price" >Sort by price: low to high</option>
-					<option value="price-desc" >Sort by price: high to low</option>
-			</select>
-	<input type="hidden" name="paged" value="1" />
-	</form>
+    
 
 	<section class="entrySection">
-	<div class="entryPoint">
 
+	<div class="entryPoint">
 <h2>Specialiteter</h2>
 <div id="entryPic">
 <a href="<?php echo site_url('/specialiteter') ?>"> 
@@ -67,6 +55,7 @@ get_header( 'shop' );
 	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
+
 	<div class="entryPoint">
 <h2>Classic Kaffe</h2>
 <div id="entryPic3">
@@ -74,6 +63,7 @@ get_header( 'shop' );
 	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
+
 	<div class="entryPoint">
 <h2>Rå kaffebønner</h2>
 <div id="entryPic4">

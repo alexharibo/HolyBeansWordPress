@@ -23,6 +23,9 @@
 
     .mobile {
         display:block;
+        position:sticky;
+        top:0;
+        z-index:1;
     }
 
     .headerStylingMobile {
@@ -31,8 +34,10 @@
         justify-content: space-between;
         background-color:#fdf7e2;
         padding:3%;
-
+       
     }
+
+   
 
 
 
@@ -81,9 +86,8 @@
     position:absolute;
     width:100%;
     background-color:#f5edd2;
-    height:100vh;
-    z-index:1;
-   animation: overlay 1s;
+  
+   animation: overlay 2s;
 
 }
 
@@ -92,7 +96,7 @@ a {
 }
 
 #navlist a, i {
-    animation: overlayText 3s;
+    animation: overlayText 2s;
 }
 
 @keyframes overlayText {
@@ -107,8 +111,13 @@ a {
 
 
 @keyframes overlay {
-    0%  {max-height:0%}
-    100% {max-height:100%}
+    0%  {
+        height:0vh;
+    }
+   
+    100% {
+       height:100vh;
+    }
 }
 
 
@@ -136,7 +145,6 @@ a {
 #exitMobile {
     display:block;
     padding:3%;
-    padding-top:20%;
     transition:2s;
 }
 
@@ -249,6 +257,17 @@ width:100%;
     margin-bottom:5%;
 }
 
+.endPoints {
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.endPoints h2 {
+    text-align:left;
+    margin-bottom:10%;
+    font-size:0.85rem;
+}
+
 /* Alt med wocommerce */
 
 .columns-4  {
@@ -310,8 +329,13 @@ height:3%;
 
 .orderby {
     background-color:#fdf7e2;
-
+    width:100%;
+    height:5%;
+    border: solid 2px;
+    font-family:'Poppins';
+    padding:2%;
 }
+
 
 .woocommerce ul.products li.product a img {
     height:20%;

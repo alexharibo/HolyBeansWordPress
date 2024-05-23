@@ -78,9 +78,16 @@ a {
 }
 
 
+
 .entryPoint img:hover {
     transform:scale(1.1);
 }
+
+.endPoints {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 
 
 /* DEFINER EFTER HVILKEN KATEGORI DE ER I [KATEGORI FARVER ] */
