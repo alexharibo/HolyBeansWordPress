@@ -63,6 +63,82 @@ a {
 }
 
 
+.entrySection {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.entryPoint img {
+    transition:2s;
+  
+    width:100%;
+    overflow:hidden;
+}
+
+.entryPoint {
+    padding: 7% 7%;
+}
+
+
+.entryPoint img:hover {
+    transform:scale(1.1);
+}
+
+
+/* DEFINER EFTER HVILKEN KATEGORI DE ER I [KATEGORI FARVER ] */
+#entryPic {
+overflow:hidden;
+border-radius: 5px;
+
+
+border:solid red;
+}
+
+#entryPic2 {
+    overflow:hidden;
+    border-radius: 5px;
+
+    
+    border:solid purple;
+    }
+
+    
+    #entryPic3 {
+        overflow:hidden;
+        border-radius: 5px;
+        
+        
+        border:solid blue;
+        }
+
+        
+        #entryPic4 {
+            overflow:hidden;
+            border-radius: 5px;
+           
+            
+            border:solid green;
+            }
+            
+            #entryPic5 {
+                overflow:hidden;
+                border-radius: 5px;
+              
+                
+                border:solid rgb(128, 0, 6);
+                }
+
+                #entryPic6 {
+                    overflow:hidden;
+                    border-radius: 5px;
+                 
+                    
+                    border:solid rgb(255, 128, 0);
+                    }
+                    
+                
+
+/*  */
 
 .koeb {
     display:block;

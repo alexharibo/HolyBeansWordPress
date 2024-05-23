@@ -49,14 +49,29 @@ get_header( 'shop' );
 			</select>
 	<input type="hidden" name="paged" value="1" />
 	</form>
+	<?php endif; ?>
+<?php 
 
+
+
+
+echo do_shortcode('[products columns=6 limit=10 category=specialiteter ]'); 
+
+
+
+
+
+
+
+
+
+
+	?>
 	<section class="entrySection">
 	<div class="entryPoint">
-
 <h2>Specialiteter</h2>
 <div id="entryPic">
-<a href="<?php echo site_url('/specialiteter') ?>"> 
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
 </div>
 	</div>
 
@@ -83,7 +98,8 @@ get_header( 'shop' );
 <h2>Abonnenter - Sort Kaffe</h2>
 <div id="entryPic5">
 
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>">
+<a href="<?php echo site_url('specialiteter') ?>"> 
+	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
 
@@ -94,25 +110,7 @@ get_header( 'shop' );
 </div>
 	</div>
 	</section>
-	<?php endif; ?>
-<?php 
 
-
-echo do_shortcode('[products columns=6 limit=4 category=popular ]'); 
-
-echo do_shortcode('[products columns=6 limit=10 category=specialiteter ]'); 
-
-echo do_shortcode('[products columns=6 limit=20 category=specialty ]'); 
-
-echo do_shortcode('[products columns=6 limit=20 category=classic ]'); 
-
-echo do_shortcode('[products columns=6 limit=20 category=kaffebonner]'); 
-
-echo do_shortcode('[products columns=6 limit=20 category=gaveideer]'); 
-
-
-
-	?>
 </header>
     </div>
 <?php

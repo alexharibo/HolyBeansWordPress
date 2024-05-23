@@ -221,6 +221,11 @@ width:100%;
     width:calc(100% / 2);
 }
 
+.entrySection {
+    display:block;
+   
+}
+
 /* Alt med wocommerce */
 
 .columns-4  {
@@ -236,19 +241,23 @@ video {
     width:100%;
 }
 
+.woocommerce-loop-product__title {
+    font-size:0.5rem;
+}
+
 .woocommerce ul.products li.product .button {
 
     color:white;
     background-color:#7F706B;
-    width:90%;
+    width:80%;
 }
 
-h3,
+h2,
 .woocommerce-loop-product__title,
 .woocommerce-loop-category__title {
     padding: 0.20em 0;
     margin: 0;
-    font-size: 0.5em;
+    font-size: 1em;
     color:black;
 }
 
