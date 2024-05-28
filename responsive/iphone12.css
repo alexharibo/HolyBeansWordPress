@@ -342,6 +342,21 @@ height:3%;
     height:20%;
 }
 
+.woocommerce-product-gallery__wrapper img {
+object-fit:cover;
+height:50%;
+border:solid 4px #C35047;
+width:98%;
+margin-top:2%;
+}
 
+.singleProductStyle {
+    background-color: #cd918d;
+}
+
+.singleProductStyle h1 {
+    color:black;
+    text-align: center;
+}
 
 }
