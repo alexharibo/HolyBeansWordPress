@@ -87,6 +87,7 @@ get_header( 'shop' );
 
 
 echo do_shortcode('[products columns=6 limit=22 category=kaffekopper ]'); 
+echo do_shortcode('[products columns=6 limit=22 category=kaffebryggere ]'); 
 
 
 
