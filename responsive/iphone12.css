@@ -359,4 +359,8 @@ margin-top:2%;
     text-align: center;
 }
 
+.woocommerce span.onsale {
+    z-index:0;
+}
+
 }

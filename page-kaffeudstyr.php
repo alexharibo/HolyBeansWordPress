@@ -88,6 +88,11 @@ get_header( 'shop' );
 
 echo do_shortcode('[products columns=6 limit=22 category=kaffekopper ]'); 
 echo do_shortcode('[products columns=6 limit=22 category=kaffebryggere ]'); 
+echo do_shortcode('[products columns=6 limit=22 category=kaffefiltre ]'); 
+echo do_shortcode('[products columns=6 limit=22 category=kaffevagte ]'); 
+echo do_shortcode('[products columns=6 limit=22 category=elkedler ]'); 
+echo do_shortcode('[products columns=6 limit=22 category=kaffekvarne]'); 
+echo do_shortcode('[products columns=6 limit=22 category=kaffekander]'); 
 
 
 

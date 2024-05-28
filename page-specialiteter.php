@@ -65,7 +65,6 @@ echo do_shortcode('[products columns=6 limit=10 category=specialiteter ]');
 
 
 
-
 	?>
 		<h3>Relaterede kaffeprodukter</h3>
 	<section class="endPoints">
