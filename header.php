@@ -85,7 +85,7 @@
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
         <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
-      <a href="#">Kaffeudstyr</a>
+      <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
       <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>

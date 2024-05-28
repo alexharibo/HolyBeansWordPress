@@ -40,12 +40,15 @@ get_header( 'shop' ); ?>
 
 			
 
-			<?php wc_get_template_part( 'content', 'holy' ); ?>
+			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
-			
+
+
+
+		<?php endwhile; // end of the loop. ?>
+
+
 		
-		<?php endwhile; // end of the loop. ?>'
-
 		</div>
 		</div>
 	
