@@ -97,7 +97,7 @@ a {
 }
 
 #navlist a, i {
-    animation: overlayText 2s;
+    animation: overlayText 4s;
 }
 
 @keyframes overlayText {

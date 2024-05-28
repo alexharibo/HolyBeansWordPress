@@ -47,7 +47,7 @@
 
             <div class="navlist">
             <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
-                <li>Kaffeudstyr</li>
+            <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
                 <li>Kurser og events</li>
                 <li>Erhverv</li>
                 <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
@@ -85,7 +85,7 @@
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
         <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
-      <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a>
+      <a href="<?php echo site_url('archive-kaffeudstyr') ?>">Kaffeudstyr</a>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
       <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
