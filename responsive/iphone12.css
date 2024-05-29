@@ -207,6 +207,16 @@ a {
    
 }
 
+
+.billedeTekst a {
+    font-weight:bolder;
+    padding:1%;
+}
+
+.billedeTekst p {
+    margin-bottom:5%;
+}
+
 #mobileLinks {
     margin-bottom:5%;
     margin-top:5%;
