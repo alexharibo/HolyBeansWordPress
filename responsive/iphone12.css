@@ -261,6 +261,16 @@ object-fit: cover;
     text-align: center;
 }
 
+#author {
+    padding:2%;
+    font-size:0.7rem;
+}
+
+.bgContainer {
+    background-color:#F6EDCF;
+    padding-top:1%;
+}
+
 .entryPoint {
     padding:1%;
     margin-bottom:5%;

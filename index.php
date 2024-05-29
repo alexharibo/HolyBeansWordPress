@@ -23,7 +23,7 @@
 
 <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
-  <p>By <?php the_author(); ?></p>
+  <p id="author">Udgivet af <?php the_author(); ?></p>
   <div class="kategoriUnderBillede">
     <p>Kategori</p>
       </div>

@@ -7,6 +7,7 @@
 
 <?php while(have_posts()) 
     the_post(); ?>
+    <div class="bgContainer">
 <div class="container">
 
 
@@ -15,7 +16,7 @@
 
 <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
-  <p>By <?php the_author(); ?></p>
+  <p id="author">Udgivet af <?php the_author(); ?></p>
   <div class="kategoriUnderBillede">
     <p>Kategori</p>
       </div>
@@ -30,9 +31,12 @@
     
     </div>
     </div>
+</div>
+</div>
 
 </section>
 
+<div class="container">
 <section class="relatedBlogs">
 <h2>Relaterede blogindlæg</h2>
 <?php {
@@ -48,7 +52,7 @@ while($related->have_posts()) {
 
   <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
-  <p>By <?php the_author(); ?></p>
+  <p id="author">Udgivet af <?php the_author(); ?></p>
   <div class="kategoriUnderBillede">
     <p>Kategori</p>
       </div>
@@ -62,6 +66,7 @@ while($related->have_posts()) {
 
     
     </div>
+
     </div>
 
 
@@ -71,6 +76,7 @@ while($related->have_posts()) {
 
 
 </section>
+</div>
 
 </div>
 
