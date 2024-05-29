@@ -34,24 +34,48 @@ get_header( 'shop' );
 <div class="container">
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
+		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
         <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
-    
+        <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
+		Sortér efter produkt</p>
+<form class="woocommerce-ordering" method="get">
+	<select name="orderby" class="orderby" aria-label="Shop order">
+	<option value="menu_order"  selected='selected'>Normal sortering</option>
+					<option value="popularity" >Sorter efter populæreste</option>
+					<option value="rating" >Sorter efter bedst anmeldte</option>
+					<option value="date" >Sorter efter nyeste</option>
+					<option value="price" >Sorter fra pris: Lav til høj</option>
+					<option value="price-desc" >Sort fra pris: Høj til lav</option>
+			</select>
+	<input type="hidden" name="paged" value="1" />
+	</form>
+	<?php endif; ?>
+<?php 
 
-	<section class="entrySection">
+
+
+
+
+
+echo do_shortcode('[products columns=6 limit=22 category=kaffebryggere ]'); 
+
+
+
+
+
+
+
+
+	?>
+	
+	<h3>Relaterede kaffeudstyr</h3>
+	<section class="endPoints">
+ 
 
 	<div class="entryPoint">
 <h2>Kaffekopper</h2>
-<div id="entryPic">
-<a href="<?php echo site_url('/kaffekopper') ?>"> 
-	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
-</div>
-	</div>
-
-	<div class="entryPoint">
-<h2>Kaffebryggere</h2>
 <div id="entryPic2">
-<a href="<?php echo site_url('/kaffebryggere') ?>"> 
+<a href="<?php echo site_url('/kaffekopper') ?>"> 
 	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
@@ -96,24 +120,9 @@ get_header( 'shop' );
 </div>
 	</div>
 
+
+
 	</section>
-	<?php endif; ?>
-<?php 
-
-
-echo do_shortcode('[products columns=6 limit=22 category=kaffekopper ]'); 
-echo do_shortcode('[products columns=6 limit=22 category=kaffebryggere ]'); 
-echo do_shortcode('[products columns=6 limit=22 category=kaffefiltre ]'); 
-echo do_shortcode('[products columns=6 limit=22 category=kaffevagte ]'); 
-echo do_shortcode('[products columns=6 limit=22 category=elkedler ]'); 
-echo do_shortcode('[products columns=6 limit=22 category=kaffekvarne]'); 
-echo do_shortcode('[products columns=6 limit=22 category=kaffekander]'); 
-
-
-
-
-
-	?>
 </header>
     </div>
 <?php
