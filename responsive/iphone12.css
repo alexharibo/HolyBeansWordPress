@@ -310,6 +310,17 @@ object-fit: cover;
         margin-left:0px;
     }
 
+    .socialsBlogs {
+        padding:5%;
+        text-align: center;
+        
+    }
+
+    #socialsBlogsIcon {
+        padding-top:4%;
+        font-size:3rem;
+    }
+
 
 /* Alt med wocommerce */
 
