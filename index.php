@@ -1,8 +1,13 @@
 <?php get_header();
 
-
 while(have_posts()) {
     the_post(); ?>
+
+
+
+<div id="kategoriBanner">
+<button class="kategori">Kategori</button>
+</div>
 
 
 
@@ -10,13 +15,14 @@ while(have_posts()) {
 
 
 
-
-
-
 <section class="oko">
 
+
+  <?php
+  while(have_posts()) {
+    the_post(); ?>
 <div class="card">
-  <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
+<img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
   <div class="kategoriUnderBillede">
     <p>Kategori</p>
       </div>
@@ -28,11 +34,19 @@ while(have_posts()) {
     </p>
     
     </div>
+    
     </div>
+    <?php }
+    ?>
+  
+
 
 </section>
 
 </div>
+
 <?php }
+
 get_footer();
+
 ?>

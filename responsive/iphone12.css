@@ -191,6 +191,10 @@ padding:0.5%;
 margin-top:1%;
 }
 
+#kategoriBanner {
+    background-color: #433737;
+}
+
 
 #kategoriList {
     display:flex;
