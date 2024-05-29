@@ -32,6 +32,9 @@ function myFunction() {
 
 
 
+
+
+
 // Image Slider
 
 const carousel = document.querySelector('.carousel');

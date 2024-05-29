@@ -177,28 +177,23 @@ a {
 }
 
 
-
-.kategori {
-text-align:center;
-width:30%;
-background-color:#7b6d5b;
-margin-left:3%;
-margin-right:3%;
-border-radius:5px;
-color:white;
-font-weight: light;
-padding:0.5%;
-margin-top:1%;
+#kategoriBanner button {
+    background-color:#7F706B;
+    border-radius:5px;
+    border:none;
+  padding:2%;
+    width:25%;
+  
 }
 
 #kategoriBanner {
     background-color: #433737;
+    height:4.5vh;
+    padding:5%;
 }
 
 
-#kategoriList {
-    display:flex;
-}
+
 
 .billedeTekst {
     padding:3%;
@@ -272,6 +267,30 @@ width:100%;
     margin-bottom:10%;
     font-size:0.85rem;
 }
+
+    /* Image Slider */
+
+    .wrapper .carousel {
+        white-space: nowrap;
+        cursor:pointer;
+        overflow:hidden;
+    }
+
+    .wrapper {
+        max-width:1200px;
+    }
+
+    .carousel img {
+        height:400px;
+        object-fit:cover;
+        margin-left:14px;
+        width:calc(100% / 3);
+    }
+
+    .carousel img:first-child() {
+        margin-left:0px;
+    }
+
 
 /* Alt med wocommerce */
 
