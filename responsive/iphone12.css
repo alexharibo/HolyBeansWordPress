@@ -178,20 +178,27 @@ a {
 
 
 #kategoriBanner button {
-    background-color:#7F706B;
+    background-color:white;
+    color:black;
     border-radius:5px;
     border:none;
-  padding:2%;
+  padding:3%;
     width:25%;
-  
+  margin:1%;
+  font-weight: bolder;
 }
 
 #kategoriBanner {
     background-color: #433737;
-    height:4.5vh;
-    padding:5%;
+ 
+    padding:4%;
 }
 
+#kategoriBanner button:nth-child(1) {
+    background-color:#7F706B;
+    color:white;
+    font-weight: bolder;
+}
 
 
 
@@ -235,6 +242,8 @@ footer a {
 
 #cardImg {
 width:100%;
+height:25vh;
+object-fit: cover;
 }
 
 .carousel img {

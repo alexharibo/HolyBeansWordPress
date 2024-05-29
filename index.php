@@ -34,7 +34,7 @@
  
     <p><?php the_content(); ?>
     </p>
-<?php the_excerpt(); ?>
+
     <a href="<?php the_permalink(); ?>">Læs mere...</a>
     
     </div>
