@@ -32,8 +32,7 @@
     <div class="billedeTekst">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  
-    <p><?php the_content(); ?>
-    </p>
+    <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
 
     <a href="<?php the_permalink(); ?>">Læs mere...</a>
     
