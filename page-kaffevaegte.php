@@ -89,9 +89,9 @@ echo do_shortcode('[products columns=6 limit=22 category=kaffevagte ]');
 	</div>
 
 	<div class="entryPoint">
-<h2>Kaffevægte</h2>
+<h2>Kaffefilter</h2>
 <div id="entryPic4">
-<a href="<?php echo site_url('/kaffevaegt') ?>"> 
+<a href="<?php echo site_url('/kaffefilter') ?>"> 
 	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
 	</div>
