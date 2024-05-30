@@ -86,7 +86,7 @@
         </div>
        
         <div id="menu"> <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
-      <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a>
+        <div id="menu"> <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a></div>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
       <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a> 
@@ -94,8 +94,17 @@
       <a href="#">Om os</a>
       
     <div id="kaffeshop">
-    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i>
-    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
+    <div id="moreMobile">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Kaffe</p>
+        </div>
+
+        <div id="moreMobileNAV">
+    <a href="<?php echo site_url('specialty') ?>">Specialty Kaffe</a>
+    <a href="<?php echo site_url('classic-kaffe') ?>">Classic Kaffe</a>
+    <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a>
+    <a href="<?php echo site_url('kaffefilter') ?>">Kaffeabonnement</a>
+</div>
+    
 </div>
 
 

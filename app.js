@@ -47,13 +47,20 @@ if(titles.style.display ==="none") {
   }
 
   function backtoContent() {
+    // Fanger alle elementer fra tidligere
     var tilbage = document.getElementById("leftIcon");
-
-    if(tilbage.style.display ==="block") {
-    tilbage.style.display ="block";
-  } else {
     var titles = document.getElementById("kaffeshop");
-    titles.display ="none";
+    var x = document.getElementById("navlist");
+
+    // Starter ud med at blive vist
+    if(tilbage.style.display ==="block") {
+      // Fjerner knap
+      tilbage.styles.display="none";
+
+  } else {
+    // Fjerner "moreContent" delen og går tilbage til den normale mobilnavigation
+    x.style.display ="block";
+    titles.style.display="none";
   }
 }
   

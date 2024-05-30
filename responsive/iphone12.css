@@ -154,8 +154,9 @@ a {
 
 #leftIcon {
     display:flex;
-    float:right;
-    margin-right:10%;
+    float:left;
+    margin-left:10%;
+    margin-right:5%;
 }
 
 #menuIcon {
@@ -163,7 +164,7 @@ a {
 }
 
 #kaffeshop {
-    padding-top:10%;
+    padding-top:5%;
     top:0;
     position:absolute;
     display:none;
@@ -178,6 +179,10 @@ a {
     color:black;
    padding:5%;
     font-size:1.5rem;
+}
+
+#moreMobileNAV {
+    margin-top:6%;
 }
 
 .container {
