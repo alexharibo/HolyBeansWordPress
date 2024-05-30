@@ -95,7 +95,7 @@ a {
     list-style: none;
 }
 
-#navlist a, i {
+#navlist a, #navlist li, i {
     animation: overlayText 1s;
 }
 

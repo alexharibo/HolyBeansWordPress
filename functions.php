@@ -54,16 +54,16 @@ add_action ('wp_enqueue_scripts' , 'wp_enqueue_woocommerce_style' );
 
 
 function HolyBeans_post_types () {
-    register_post_type('kaffe', array(
-           'supports' => array('title', 'editor', 'excerpt'),
-           'rewrite' => array('slug' => 'arrangement2'),
+    register_post_type('blog', array(
+           'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'category'),
+           'rewrite' => array('slug' => 'blog'),
            'public' => true,
            'labels' => array(
-               'name' => 'Kaffe',
-               'add_new_item' => 'Tilføj kaffe',
-               'edit_item' => 'Ændr kaffe',
-               'all_items' => 'Alle kaffer',
-               'singular_name' => 'Kaffe'
+               'name' => 'Blog',
+               'add_new_item' => 'Tilføj blog',
+               'edit_item' => 'Ændr blog',
+               'all_items' => 'Alle blogge',
+               'singular_name' => 'Blog'
            ),
            'menu_icon' => 'dashicons-star-filled'
        ));
@@ -71,6 +71,39 @@ function HolyBeans_post_types () {
 
     }
 
+    register_post_type('kurser', array(
+        'supports' => array('title', 'editor', 'excerpt'),
+        'rewrite' => array('slug' => 'kurser'),
+        'public' => true,
+        'labels' => array(
+            'name' => 'Kurser',
+            'add_new_item' => 'Tilføj kurser',
+            'edit_item' => 'Ændr kurser',
+            'all_items' => 'Alle kurser',
+            'singular_name' => 'Kursus'
+        ),
+        'menu_icon' => 'dashicons-star-filled'
+    ));
+
     add_action('init', 'HolyBeans_post_types');
+
+
+    // Kategorier til blogge
+    function blog_kategori() {
+        register_taxonomy(
+            'blog_kategori', 
+            'blog', 
+            array(
+                'label' => 'Kategori', 
+                'rewrite' => array('slug' => 'blog_kategori'), 
+                'hierarchical' => true, 
+            )
+        );
+    }
+  
+    
+     add_action('init', 'blog_kategori');
+
+
 
     

@@ -5,9 +5,9 @@
 
 <div class=".kategoriCarousel">
 <div id="kategoriBanner">
-<button class="kategori1">Kategori</button>
-<button onclick="changeContent()" class="kategori2">Kategori</button>
-<button class="kategori3">Kategori</button>
+<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori">Kategori</button></a>
+<button class="kategori">Kategori</button>
+<button class="kategori">Kategori</button>
 
 
 </div>
@@ -15,8 +15,9 @@
 
 <?php while(have_posts()) {
     the_post(); ?>
+    
 <?php 
-$lort =  new WP_Query(
+$blogkategori =  new WP_Query(
     array(
         'posts_per_page' => 10,
         'post_type' => 'blog',
@@ -25,8 +26,8 @@ $lort =  new WP_Query(
     )
 );
 
-while ($lort->have_posts()) {
-    $lort->the_post();  
+while ($blogkategori->have_posts()) {
+    $blogkategori->the_post();  
 
     // Hent kategorier for det aktuelle indlæg
     $kategorier = get_the_terms(get_the_ID(), 'blog_kategori');
@@ -34,7 +35,7 @@ while ($lort->have_posts()) {
     // Tjek om der er kategorier og om en af dem har slug'en 'aalborg'
     if ($kategorier && !is_wp_error($kategorier)) {
         foreach ($kategorier as $blog) {
-            if ($blog->slug === 'ivarksatteri') {
+            if ($blog->slug === 'ivark') {
                 // Udskriv indholdet kun hvis indlægget tilhører 'aalborg' kategorien
                 ?>
                <div class="container">
