@@ -31,6 +31,34 @@ function myFunction() {
   }
 
 
+  function moreContent() {
+    var pil = document.getElementById("menuIcon");
+var titles = document.getElementById("kaffeshop");
+
+// Starter ud med at være display none
+if(titles.style.display ==="none") {
+
+  // Når jeg trykker på den, så bliver den lavet om til style block, så den vises.
+  titles.style.display = "block";
+} else {
+  // Når jeg så klikker igen, så vises den ikke.
+  titles.style.display = "none";
+}
+  }
+
+  function backtoContent() {
+    var tilbage = document.getElementById("leftIcon");
+
+    if(tilbage.style.display ==="block") {
+    tilbage.style.display ="block";
+  } else {
+    var titles = document.getElementById("kaffeshop");
+    titles.display ="none";
+  }
+}
+  
+
+
 
 
 
@@ -65,3 +93,12 @@ carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
 
+
+
+//const knap = document.querySelector('.kategori')
+//const indhold = document.querySelector('.container');
+
+//function changeContent() {
+ // document.querySelector('.container').innerHTML = "Hej";
+ // document.querySelector('.kategori').style.backgroundColor = "red";
+//}

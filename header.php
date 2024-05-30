@@ -84,13 +84,20 @@
         <div id="exitMobile">
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
-        <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
+       
+        <div id="menu"> <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
       <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
-      <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
+      <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a> 
+      <a href="<?php echo site_url('gaveideer') ?>">  <li>Gaver</li> </a>
       <a href="#">Om os</a>
       
+    <div id="kaffeshop">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i>
+    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
+</div>
+
 
       <div id="iconsToNavlist">
       <i class="fa-regular fa-heart"></i>

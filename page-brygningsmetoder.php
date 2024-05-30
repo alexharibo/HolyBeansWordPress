@@ -5,12 +5,9 @@
 
 <div class=".kategoriCarousel">
 <div id="kategoriBanner">
-<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori1">Iværksætteri</button></a>
-<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori1">Brygningsmetoder</button></a>
-<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori1">Kaffesmag og forarbejdning</button></a>
-<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori1">Kaffeetik og kvalitet</button></a>
-<a href="<?php echo site_url('ivaerksaetteri') ?>"><button class="kategori1">Kaffedyrkning og Marked</button></a>
-
+<button class="kategori1">Kategori</button>
+<button onclick="changeContent()" class="kategori2">Kategori</button>
+<button class="kategori3">Kategori</button>
 
 
 </div>
@@ -28,7 +25,7 @@
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
   <p id="author">Udgivet af <?php the_author(); ?></p>
   <div class="kategoriUnderBillede">
-    <p>Kategori</p>
+    <p><?php the_title(); ?></p>
       </div>
 
    
