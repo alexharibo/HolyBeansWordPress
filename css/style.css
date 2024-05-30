@@ -3,7 +3,7 @@
 
 body {
     margin:0;
-    font-family: 'Comfortaa';
+    font-family: "DM Sans", sans-serif;
    background-color:#fdf7e2;
 }
 
@@ -208,15 +208,18 @@ padding: 0.5 7%;
 
 .kategoriUnderBillede {
     text-align:center;
-    width:30%;
+    width:80%;
     background-color:#7b6d5b;
  margin-left:2%;
     margin-right:3%;
     border-radius:5px;
-    color:white;
     font-weight: light;
     padding:0.5%;
     margin-top:1%;
+    }
+
+    .kategoriUnderBillede a {
+        color:white;
     }
 
 #kategoriList2 {

@@ -166,10 +166,12 @@ a {
     float:left;
     margin-left:10%;
     margin-right:5%;
+    font-size:20px;
 }
 
 #menuIcon {
-    margin-top:6%;
+    margin-top:7%;
+    font-size:20px;
 }
 
 #kaffeshop {
@@ -227,20 +229,21 @@ a {
     border-radius:5px;
     border:none;
   padding:3%;
-  font-size:0.8rem;
+  font-size:10px;
   margin:1%;
   font-weight: bolder;
+  width:90%;
+  height:90%;
 }
 
 #kategoriBanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #433737;
- 
+    
     padding:4%;
 }
 
-.kategori1 {
-    background-color:white;
-}
 
 
 
@@ -290,6 +293,10 @@ footer a {
     background-color:#f5edd2;
     margin-top:5%;
     width:100%;
+}
+
+.card h2 {
+    padding-left:3%;
 }
 
 #cardImg {
