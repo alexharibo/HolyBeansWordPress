@@ -141,6 +141,15 @@ a {
   font-size:1.5rem;
 }
 
+
+#navlist li {
+    display:block;
+  text-decoration: none;
+  color:black;
+ padding:5%;
+  font-size:1.5rem;
+}
+
 #exitMobile {
     display:block;
     padding:3%;

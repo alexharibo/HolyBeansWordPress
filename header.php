@@ -85,12 +85,12 @@
             <i class="fa-solid fa-xmark" id="exitIcon" onclick="exitMobile()"></i>
         </div>
        
-        <div id="menu"> <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
+        <div id="menu">  <li>Kaffe</li> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
         <div id="menu"> <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a></div>
       <a href="#">Kurser og events</a>
       <a href="#">Erhverv</a>
-      <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a> 
-      <a href="<?php echo site_url('gaveideer') ?>">  <li>Gaver</li> </a>
+      <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> 
+      <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a>
       <a href="#">Om os</a>
       
     <div id="kaffeshop">
