@@ -422,6 +422,17 @@ object-fit: cover;
     border:none;
     border-radius:5px;
 }
+
+.afholdelse {
+    padding-bottom:2%;
+    padding-top:2%;
+}
+
+.udstyr {
+    padding-bottom:2%;
+    padding-top:2%;
+}
+
 /* Alt med wocommerce */
 
 .columns-4  {

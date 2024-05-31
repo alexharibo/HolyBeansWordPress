@@ -32,7 +32,22 @@
 </div>
 
 <div id="kursusKnap">
-<button class="valgMuligheder">Vælg dato</button>
+<button class="valgMuligheder">VÆLG DATO</button>
+        </div>
+
+<div class="udstyr">
+<h2>Medbringer du selv udstyr?</h2>
+<form class="udstyrOption">
+  <option value="250">Ja</option>
+  <option value="250">Nej</option>
+</form>
+<p>OBS melder du fra til kurset indenfor 7 dage til kurset afholdes, er det ikke muligt at ombooke eller modtage tilbagebetaling.
+Vi forbeholder os retten til at aflyse/rykke datoen ved for få tilmeldinger.</p>
+</div>
+
+
+<div id="kursusKnap">
+<button class="valgMuligheder">TILFØJ TIL KURV</button>
         </div>
 
 
@@ -45,16 +60,24 @@
 
 <div class="container">
 <section class="relatedBlogs">
-<h2>Relaterede blogindlægS</h2>
-<?php {
+<h2>Relaterede kurser</h2>
+
+<?php
+$query = new WP_Query(array(
+    'post_type' => "kurser",
+    'posts_per_page' => 5,
+    'relation' => 'AND'
+));
+
+if ($query->have_posts()) :
+    while ($query->have_posts()) : $query->the_post();
 $related = new WP_Query(array(
 'posts_per_page' => 2
 ));
 
 
 
-while($related->have_posts()) {
-    $related->the_post(); ?>
+?>
   
 
   <div class="card">
@@ -79,17 +102,24 @@ while($related->have_posts()) {
 
 
 
-<?php }
-?>
+    <?php
 
+
+
+endwhile;
+wp_reset_postdata();
+else :
+echo '<p>Ingen indlæg fundet i denne kategori.</p>';
+endif;
+?>
 
 </section>
 </div>
 
 </div>
 
-<?php }
 
-get_footer();
+
+<?php get_footer();
 
 ?>
