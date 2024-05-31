@@ -63,10 +63,12 @@ Vi forbeholder os retten til at aflyse/rykke datoen ved for få tilmeldinger.</p
 <h2>Relaterede kurser</h2>
 
 <?php
+$current_post_id = get_the_ID();
 $query = new WP_Query(array(
     'post_type' => "kurser",
     'posts_per_page' => 5,
-    'relation' => 'AND'
+    'relation' => 'AND',
+    'post__not_in' => array($current_post_id)
 ));
 
 if ($query->have_posts()) :
@@ -83,9 +85,6 @@ $related = new WP_Query(array(
   <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
   <p id="author">Udgivet af <?php the_author(); ?></p>
-  <div class="kategoriUnderBillede">
-    <p><?php the_category(', '); ?></p>
-      </div>
 
    
     <div class="billedeTekst">

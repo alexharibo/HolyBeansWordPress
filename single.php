@@ -47,8 +47,12 @@
 <section class="relatedBlogs">
 <h2>Relaterede blogindlæg</h2>
 <?php {
+
+$current_post_id = get_the_ID();
 $related = new WP_Query(array(
-'posts_per_page' => 2
+'posts_per_page' => 2,
+'related' => 'AND',
+'post__not_in' => array($current_post_id)
 ));
 
 
