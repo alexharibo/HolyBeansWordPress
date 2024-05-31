@@ -54,16 +54,16 @@ add_action ('wp_enqueue_scripts' , 'wp_enqueue_woocommerce_style' );
 
 
 function HolyBeans_post_types () {
-    register_post_type('blog', array(
+    register_post_type('events', array(
            'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'category'),
-           'rewrite' => array('slug' => 'blog'),
+           'rewrite' => array('slug' => 'events'),
            'public' => true,
            'labels' => array(
-               'name' => 'Blog',
-               'add_new_item' => 'Tilføj blog',
-               'edit_item' => 'Ændr blog',
-               'all_items' => 'Alle blogge',
-               'singular_name' => 'Blog'
+               'name' => 'Event',
+               'add_new_item' => 'Tilføj event',
+               'edit_item' => 'Ændr event',
+               'all_items' => 'Alle events',
+               'singular_name' => 'Event'
            ),
            'menu_icon' => 'dashicons-star-filled'
        ));

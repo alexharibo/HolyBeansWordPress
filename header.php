@@ -87,12 +87,20 @@
        
         <div id="menu">  <li>Kaffe</li> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
         <div id="menu"> <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a></div>
-      <a href="#">Kurser og events</a>
+        <div id="menu">   <a href="#">Kurser og events</a><i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent2()"></i></div>
       <a href="#">Erhverv</a>
       <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> 
       <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a>
       <a href="#">Om os</a>
       
+      <div id="iconsToNavlist">
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-bag-shopping"></i>
+      <i class="fa-solid fa-magnifying-glass"></i>
+
+</div>
+
+      <!-- For kaffe -->
     <div id="kaffeshop">
     <div id="moreMobile">
     <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Kaffe</p>
@@ -104,16 +112,23 @@
     <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a>
     <a href="<?php echo site_url('kaffefilter') ?>">Kaffeabonnement</a>
 </div>
+</div>
+
+<!-- For kurser og events -->
+<div id="kurser">
+    <div id="moreMobile">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Kurser og events</p>
+        </div>
+
+        <div id="moreMobileNAV">
+    <a href="<?php echo site_url('specialty') ?>">Kurser</a>
+    <a href="<?php echo site_url('classic-kaffe') ?>">Events</a>
+</div>
     
 </div>
 
 
-      <div id="iconsToNavlist">
-      <i class="fa-regular fa-heart"></i>
-      <i class="fa-solid fa-bag-shopping"></i>
-      <i class="fa-solid fa-magnifying-glass"></i>
-
-</div>
+ 
     </div>
 
 

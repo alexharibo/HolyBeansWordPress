@@ -43,11 +43,27 @@ if(titles.style.display ==="none") {
 }
   }
 
+  function moreContent2() {
+    var pil = document.getElementById("menuIcon2");
+var kurser = document.getElementById("kurser");
+
+// Starter ud med at være display none
+if(kurser.style.display ==="none") {
+
+  // Når jeg trykker på den, så bliver den lavet om til style block, så den vises.
+  kurser.style.display = "block";
+} else {
+  // Når jeg så klikker igen, så vises den ikke.
+  kurser.style.display = "none";
+}
+  }
+
   function backtoContent() {
     // Fanger alle elementer fra tidligere
     var tilbage = document.getElementById("leftIcon");
     var titles = document.getElementById("kaffeshop");
     var x = document.getElementById("navlist");
+    var kurser = document.getElementById("kurser");
 
     // Starter ud med at blive vist
     if(tilbage.style.display ==="block") {
@@ -58,6 +74,7 @@ if(titles.style.display ==="none") {
     // Fjerner "moreContent" delen og går tilbage til den normale mobilnavigation
     x.style.display ="block";
     titles.style.display="none";
+    kurser.style.display="none";
   }
 }
   
