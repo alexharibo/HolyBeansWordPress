@@ -407,7 +407,20 @@ object-fit: cover;
         font-size:3rem;
     }
 
+    #kursusKnap {
+        display:flex;
+        justify-content: center;
+    }
 
+.valgMuligheder {
+    background-color: #7E6D58;
+    color:white;
+    width:60%;
+    padding:3%;
+    font-family:"DM Sans", sans-serif;
+    border:none;
+    border-radius:5px;
+}
 /* Alt med wocommerce */
 
 .columns-4  {

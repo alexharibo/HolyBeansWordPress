@@ -9,7 +9,7 @@
     <h1>Aktuelle events</h1>
     <?php
         $query = new WP_Query(array(
-            'post_type' => "kurser",
+            'post_type' => "events",
             'posts_per_page' => 5
         ));
 

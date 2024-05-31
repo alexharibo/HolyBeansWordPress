@@ -9,7 +9,7 @@
     <h1>Aktuelle kurser</h1>
     <?php
         $query = new WP_Query(array(
-            'post_type' => "events",
+            'post_type' => "kurser",
             'posts_per_page' => 5
         ));
 
@@ -21,8 +21,13 @@
    <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
   <h2> <?php the_title() ?></h2>
   <p id="author">Udgivet af <?php the_author(); ?></p>
-<p><?php the_content() ?></p>
+ <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
+                        <a href="<?php the_permalink(); ?>">Læs mere...</a>
 <?php echo get_field("test123"); ?>
+
+<div id="kursusKnap">
+<button class="valgMuligheder">Vælg muligheder</button>
+        </div>
 <?php
 
 
