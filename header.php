@@ -87,7 +87,7 @@
        
         <div id="menu">  <li>Kaffe</li> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
         <div id="menu"> <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a></div>
-        <div id="menu">   <a href="#">Kurser og events</a><i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent2()"></i></div>
+        <div id="menu">   <li>Kurser og events</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent2()"></i></div>
       <a href="#">Erhverv</a>
       <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> 
       <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a>
@@ -121,8 +121,8 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('specialty') ?>">Kurser</a>
-    <a href="<?php echo site_url('classic-kaffe') ?>">Events</a>
+    <a href="<?php echo site_url('kurser') ?>">Kurser</a>
+    <a href="<?php echo site_url('events') ?>">Events</a>
 </div>
     
 </div>
