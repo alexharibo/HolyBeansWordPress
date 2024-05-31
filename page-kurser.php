@@ -6,11 +6,11 @@
     <section class="oko">
 
 
-    <h1>Aktuelle events</h1>
+    <h1>Aktuelle kurser</h1>
     <?php
         $query = new WP_Query(array(
-            'post_type' => "kurser",
-            'posts_per_page' => 1
+            'post_type' => "events",
+            'posts_per_page' => 5
         ));
 
         if ($query->have_posts()) :
