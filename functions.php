@@ -72,7 +72,7 @@ function HolyBeans_post_types () {
     }
 
     register_post_type('kurser', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'category'),
         'rewrite' => array('slug' => 'kurser'),
         'public' => true,
         'labels' => array(

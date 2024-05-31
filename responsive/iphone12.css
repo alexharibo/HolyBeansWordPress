@@ -348,6 +348,8 @@ object-fit: cover;
 #author {
     padding:2%;
     font-size:0.7rem;
+    padding-top:0%;
+    padding-left:1%;
 }
 
 .bgContainer {
@@ -415,6 +417,18 @@ object-fit: cover;
 .oko {
     display:block;
 margin:auto;
+}
+
+.oko h2 {
+padding-left:1%;
+padding-top:2%;
+padding-bottom:0%;
+}
+
+.oko p {
+    padding-left:1%;
+    padding-top:1%;
+    padding-bottom:0%;   
 }
 
 video {
