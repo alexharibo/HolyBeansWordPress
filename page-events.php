@@ -6,7 +6,7 @@
     <section class="oko">
 
 
-    <h1>Aktuelle kurser</h1>
+    <h1>Aktuelle events</h1>
     <?php
         $query = new WP_Query(array(
             'post_type' => "kurser",
@@ -15,8 +15,8 @@
 
         if ($query->have_posts()) :
             while ($query->have_posts()) : $query->the_post();
-            $pris = get_field("pris");
-            $dato = get_field("dato");
+            
+         
         ?>
 
 
@@ -24,8 +24,9 @@
   <h2> <?php the_title() ?></h2>
   <p id="author">Udgivet af <?php the_author(); ?></p>
 <p><?php the_content() ?></p>
-<p><?php echo get_field("pris"); ?> kr</p>
-<p><?php echo get_field("dato"); ?> krkrkrkrkr</p>
+<?php echo get_field("test123"); ?>
+
+
 
 <?php
 

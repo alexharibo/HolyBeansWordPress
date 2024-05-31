@@ -22,6 +22,7 @@
   <h2> <?php the_title() ?></h2>
   <p id="author">Udgivet af <?php the_author(); ?></p>
 <p><?php the_content() ?></p>
+<?php echo get_field("test123"); ?>
 <?php
 
 
