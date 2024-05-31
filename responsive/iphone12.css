@@ -355,6 +355,7 @@ object-fit: cover;
 .bgContainer {
     background-color:#F6EDCF;
     padding-top:1%;
+    padding-bottom:5%;
 }
 
 .entryPoint {
