@@ -539,21 +539,4 @@ margin-top:2%;
     z-index:0;
 }
 
-/* FJERN ANMELDELSER */
-.tabs  {
-    display:none;
-}
-
-.woocommerce-Reviews-title {
-    display:none;
-}
-
-.woocommerce-noreviews {
-    display:none;
-}
-
-#respond {
-    display:none;
-}
-
 }
