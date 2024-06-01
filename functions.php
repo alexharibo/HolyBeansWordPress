@@ -104,6 +104,11 @@ function HolyBeans_post_types () {
     
      add_action('init', 'blog_kategori');
 
-
+     function custom_remove_single_product_reviews() {
+        if (is_product()) {
+            remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+        }
+    }
+    add_action('wp', 'custom_remove_single_product_reviews', 20);
 
     
