@@ -86,12 +86,12 @@
         </div>
        
         <div id="menu">  <li>Kaffe</li> <i class="fa-solid fa-angle-right" id="menuIcon" onclick="moreContent()"></i></div>
-        <div id="menu"> <a href="<?php echo site_url('kaffeudstyr') ?>">Kaffeudstyr</a></div>
+        <div id="menu">  <li>Kaffeudstyr</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent3()"></i></div>
         <div id="menu">   <li>Kurser og events</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent2()"></i></div>
-      <a href="#">Erhverv</a>
+        <div id="menu">   <li>Erhverv</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent4()"></i></div>
       <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> 
       <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a>
-      <a href="#">Om os</a>
+      <div id="menu">   <li>Om os</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent5()"></i></div>
       
       <div id="iconsToNavlist">
       <i class="fa-regular fa-heart"></i>
@@ -110,7 +110,7 @@
     <a href="<?php echo site_url('specialty') ?>">Specialty Kaffe</a>
     <a href="<?php echo site_url('classic-kaffe') ?>">Classic Kaffe</a>
     <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a>
-    <a href="<?php echo site_url('kaffefilter') ?>">Kaffeabonnement</a>
+    <a href="<?php echo site_url('/kaffeabonnement') ?>">Kaffeabonnement</a>
 </div>
 </div>
 
@@ -124,12 +124,59 @@
     <a href="<?php echo site_url('kurser') ?>">Kurser</a>
     <a href="<?php echo site_url('events') ?>">Events</a>
 </div>
-    
 </div>
 
 
- 
-    </div>
+<!-- For kaffeudstyr -->
+<div id="kaffeudstyr">
+    <div id="moreMobile">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Kaffeudstyr</p>
+        </div>
+
+        <div id="moreMobileNAV">
+    <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a>
+    <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a>
+    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
+    <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a>
+    <a href="<?php echo site_url('elkedler') ?>">Elkedel</a>
+    <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a>
+</div>
+</div>
+
+<!-- Erhverv -->
+<div id="erhverv">
+    <div id="moreMobile">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Erhverv</p>
+        </div>
+
+        <div id="moreMobileNAV">
+    <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a>
+    <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a>
+    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
+    <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a>
+    <a href="<?php echo site_url('elkedler') ?>">Elkedel</a>
+    <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a>
+</div>
+</div>
+
+<!-- Om os -->
+
+<div id="omos">
+    <div id="moreMobile">
+    <i class="fa-solid fa-angle-left" id="leftIcon" onclick="backtoContent()"></i><p>Om os</p>
+        </div>
+
+        <div id="moreMobileNAV">
+    <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a>
+    <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a>
+    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
+    <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a>
+    <a href="<?php echo site_url('elkedler') ?>">Elkedel</a>
+    <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a>
+</div>
+</div>
+
+
 
 
     
