@@ -26,7 +26,7 @@
 
    
 
-        // Opret en ny WP_Query
+   
         $query = new WP_Query(array(
            
             'posts_per_page' => 5 

@@ -594,6 +594,20 @@ object-fit: cover;
   
 }
 
+#risterietImg {
+    width:100%;
+}
+
+#risterietTxt {
+    margin-top:5%;
+    margin-bottom:8%;
+}
+
+#firmaeventsImg {
+    width:100%;
+    
+}
+
 
 /* Alt med wocommerce */
 

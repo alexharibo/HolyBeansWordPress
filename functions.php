@@ -54,25 +54,28 @@ add_action ('wp_enqueue_scripts' , 'wp_enqueue_woocommerce_style' );
 
 
 function HolyBeans_post_types () {
+
+    
     register_post_type('events', array(
-           'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'category'),
-           'rewrite' => array('slug' => 'events'),
+           'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+           'rewrite' => array('slug' => 'Events'),
            'public' => true,
            'labels' => array(
                'name' => 'Event',
                'add_new_item' => 'Tilføj event',
                'edit_item' => 'Ændr event',
                'all_items' => 'Alle events',
-               'singular_name' => 'Event'
+               'singular_name' => 'Event',
+
            ),
            'menu_icon' => 'dashicons-star-filled'
        ));
 
 
-    }
+   
 
     register_post_type('kurser', array(
-        'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'category'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array('slug' => 'kurser'),
         'public' => true,
         'labels' => array(
@@ -84,31 +87,19 @@ function HolyBeans_post_types () {
         ),
         'menu_icon' => 'dashicons-star-filled'
     ));
+}
+add_action('init', 'HolyBeans_post_types');
 
-    add_action('init', 'HolyBeans_post_types');
 
 
-    // Kategorier til blogge
-    function blog_kategori() {
-        register_taxonomy(
-            'blog_kategori', 
-            'blog', 
-            array(
-                'label' => 'Kategori', 
-                'rewrite' => array('slug' => 'blog_kategori'), 
-                'hierarchical' => true, 
-            )
-        );
-    }
+
+
+
+
+
   
-    
-     add_action('init', 'blog_kategori');
 
-     function custom_remove_single_product_reviews() {
-        if (is_product()) {
-            remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
-        }
-    }
-    add_action('wp', 'custom_remove_single_product_reviews', 20);
+  
+
 
     

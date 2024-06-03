@@ -111,7 +111,7 @@ if(omos.style.display ==="none") {
     var kurser = document.getElementById("kurser");
     var kaffeudstyr = document.getElementById("kaffeudstyr");
     var omos = document.getElementById("omos");
-    var omos = document.getElementById("erhverv");
+    var erhverv = document.getElementById("erhverv");
 
     // Starter ud med at blive vist
     if(tilbage.style.display ==="block") {

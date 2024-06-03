@@ -29,7 +29,7 @@
 
 <div id="kursusKnap">
 <button class="valgMuligheder">Vælg muligheder</button>
-
+        </div>
 <?php
 
 
