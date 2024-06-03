@@ -620,6 +620,11 @@ object-fit: cover;
     margin-bottom:8%;
 }
 
+#ansvarlighedTxt {
+    margin-top:5%;
+    margin-bottom:8%;
+}
+
 #firmaeventsImg {
     width:100%;
     object-fit:fill;
