@@ -541,6 +541,31 @@ object-fit: cover;
 
 .beskrivelse {
     display:none;
+    width:100%;
+    text-align: left;
+    background-color: #d7c5ae;
+    border:none;
+    font-family: "DM Sans", sans-serif;
+  
+}
+
+#manedskaffe {
+    padding:2%;
+    padding-left:3%;
+}
+
+#obs {
+    margin-top:3%;
+}
+
+#friskristet {
+    margin-top:2%;
+    padding:2%;
+    padding-left:3%;
+}
+
+.beskrivelse h3 {
+    margin:0;
 }
 
 .kaffeabonnementAc {
@@ -548,18 +573,25 @@ object-fit: cover;
     height:5%;
     text-align: left;
     padding-left:5%;
+    margin-top:5%;
+    background-color: #d7c5ae;
+    border:none;
+    font-family: "DM Sans", sans-serif;
 }
 
 .kaffeabonnementAc:after {
     content: '\02795'; 
   font-size: 13px;
-  color: #ff0000;
   float: right;
   margin-left: 5px;
+  color:red;
 }
+
+
 
 .active:after {
     content: "\2796";
+  
 }
 
 

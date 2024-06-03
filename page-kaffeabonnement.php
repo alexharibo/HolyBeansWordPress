@@ -66,8 +66,39 @@
 <div id="kaffeabonnementAccordion">
 <button class="kaffeabonnementAc">Beskrivelse</button>
 <div class="beskrivelse">
-    <p>Beskrivelse</p>
+    <div id="manedskaffe">
+    <h3>Vores månedskaffer er: </h3>
+
+
+<p>Jan: Honduras & Etiopien</p>
+<p>Feb: Brasilien & Burundi</p>
+<p>Mar: Peru & El Salvador</p>
+<p>Apr: Surprice & Etiopien</p>
+<p>Maj: Brasilien & Burundi</p>
+<p>Jun: Peru & El Salvado</p>
+<p>Aug: Brasilien & Burundi</p>
+<p>Sep: Peru & El Salvador</p>
+<p>Okt: Honduras & Etiopien</p>
+<p>Nov: Brasilien & Burundi</p>
+<p>Dec: Peru & El Salavador</p>
 </div>
+
+<div id="friskristet">
+<h3>Friskristet kaffe på abonnement</h3>
+<p>Hver måned modtager du enten 2 x 250 g eller 2 x 500 g kaffe. Vi pakker kaffen først på måneden,
+    og penge trækkes, når kaffen afsendes.
+</p>
+
+<div id="obs">
+<p>VÆR OBS PÅ: DIT KAFFEABONNEMENT STARTER ALTID I DEN FØRSTKOMMENDE MÅNED. Dsv. bestiller du abonnement d. 10.
+    feb. så pakkes din kaffe i den efterfølgende måned, og pengene trækkes herefter. Abonnementet vil 
+    derfor træde i kraft fra marts måned.
+</div>
+</div>
+</div>
+
+
+
 </div>
 </div>
 

@@ -150,12 +150,11 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a>
-    <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a>
-    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
-    <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a>
-    <a href="<?php echo site_url('elkedler') ?>">Elkedel</a>
-    <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a>
+    <a href="<?php echo site_url('risteriet') ?>">Risteriet</a>
+    <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a>
+    <a href="<?php echo site_url('kontakt') ?>">Kontakt</a>
+    <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a>
+
 </div>
 </div>
 
