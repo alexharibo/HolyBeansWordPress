@@ -87,6 +87,20 @@ function HolyBeans_post_types () {
         ),
         'menu_icon' => 'dashicons-star-filled'
     ));
+
+    register_post_type('medarbejder', array(
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+        'rewrite' => array('slug' => 'medarbejder'),
+        'public' => true,
+        'labels' => array(
+            'name' => 'Medarbejder',
+            'add_new_item' => 'Tilføj medarbejdere',
+            'edit_item' => 'Ændr medarbejder',
+            'all_items' => 'Alle medarbejderne',
+            'singular_name' => 'Medarbejder'
+        ),
+        'menu_icon' => 'dashicons-star-filled'
+    ));
 }
 add_action('init', 'HolyBeans_post_types');
 

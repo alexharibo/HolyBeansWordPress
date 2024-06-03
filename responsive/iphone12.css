@@ -650,6 +650,11 @@ object-fit: cover;
     display:none;
 }
 
+#medarbejder {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
 
 /* Alt med wocommerce */
 
