@@ -12,6 +12,7 @@
         $query = new WP_Query(array(
             'post_type' => "medarbejder",
             'posts_per_page' => 9
+    
         ));
 
         if ($query->have_posts()) :
@@ -23,7 +24,7 @@
 <div id="medarbejder">
    <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
   <h2> <?php the_title() ?></h2>
-  <p><?php echo get_field("medarbejder") ?></p>
+  <p><?php echo get_field("stilling") ?></p>
 <p>TLF: <?php echo get_field("telefonnummer") ?></p>
 <p>MAIL: <?php echo get_field("mail") ?></p>
         </div>
