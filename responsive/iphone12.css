@@ -478,6 +478,17 @@ object-fit: cover;
     border-radius:5px;
 }
 
+.kontaktKnap{
+    background-color: #7F706B;
+    color:white;
+    width:60%;
+    padding:3%;
+    font-family:"DM Sans", sans-serif;
+    border:none;
+    border-radius:5px;
+}
+
+
 .afholdelse {
     padding-bottom:2%;
     padding-top:2%;
@@ -564,6 +575,12 @@ object-fit: cover;
     padding-left:3%;
 }
 
+.risterietKvalitetskaffe {
+    background-color: #ECE4CA;
+    padding:0 5%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
 .beskrivelse h3 {
     margin:0;
 }
@@ -606,6 +623,12 @@ object-fit: cover;
 #firmaeventsImg {
     width:100%;
     object-fit:fill;
+}
+
+#firmaeventsTxt button {
+    display:block;
+    margin:auto;
+    margin-top:5%;
 }
 
 #gaveDesign img {
