@@ -605,7 +605,21 @@ object-fit: cover;
 
 #firmaeventsImg {
     width:100%;
-    
+    object-fit:fill;
+}
+
+#gaveDesign img {
+    height:250px;
+    object-fit: cover;
+    border-radius:2px;
+}
+
+#gaveDesign .product {
+    background-color:#F4E7C6;
+}
+
+#gaveDesign .button {
+    display:none;
 }
 
 
@@ -705,6 +719,9 @@ margin-top:2%;
 .singleProductStyle {
     background-color: #cd918d;
 }
+
+
+
 
 .singleProductStyle h1 {
     color:black;
