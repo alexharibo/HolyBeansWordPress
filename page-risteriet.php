@@ -33,7 +33,15 @@
 </div>
 
 <div id="desktopRisterietIntro2txt">
-<h2>Hej</h2>
+<h2>Kaffe af høj kvalitet</h2>
+</div>
+
+<div id="desktopRisterietIntro2txt">
+<p>Kaffe er en fantastisk råvare, og vi tror på, at det påvirker rigtig mange mennesker, når vi vælger at købe og drikke kaffe af en høj kvalitet. Kaffe af en høj kvalitet, er lig med kaffe til en højere pris og dermed en tilsvarende højere løn til farmerne i de kaffeproducerende lande. Derfor udvælger vi de fineste speciality kaffer. Alle kaffer scores ud fra kvalitet, og speciality kaffer er de kaffer, som scorer højest. Speciality ligger fra 80 point og op til 100 point, og det er de allerfærreste kaffer, som scorer over 90 point og dermed kvalificerer sig til Cup of Excellence som for eksempel vores kaffe fra La Cumbre i El Salvador.</p>
+</div>
+
+<div id="desktopRisterietIntro2txt">
+<p>Den endelige ristning og kaffebrygning er altafgørende for den gode smag. At riste kaffen til perfektion betyder også, at vi anerkender og værdsætter kaffebøndernes store arbejde! Derfor rister vi vores kaffer nænsomt og ud fra en klar vision om, hvordan kafferne skal smage, afhængigt af blandt andet oprindelse og forarbejdning. Vi tror på kaffens unikke karakteristika og arbejder hver dag for at frembringe kaffens naturlige karakter. Ved at riste lyst bevarer vi så mange unikke smagsnuancer som muligt, og mange vil opleve vores kaffer som florale og frugtige. Modsat vil en mere mørkristet kaffe, som oftest smage mere brændt. Når vi rister lyst er det ligeledes sværere at “skjule” fejl i kaffen, hvorimod en mørkristet kaffe nemmere slører defekterne, hvis de måtte findes i kaffen. Kort sagt kan man sige, at pris, kvalitet og ristegrad som oftest hænger sammen.</p>
 </div>
 </section>
 
