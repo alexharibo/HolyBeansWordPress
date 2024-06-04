@@ -44,21 +44,55 @@
         </div>
 
             <div class="navlist">
-            <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
-            <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+                <!-- Web Kaffe -->
+            <div class="websiteDrop">
+        <li>Kaffe <i class="fa-solid fa-chevron-down"></i></li> </a>
+            <div class="websiteDropContent">
+            <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
+        <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
+        <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>
+</div>
+</div>
+<!-- Web Kaffeudstyr -->
+<div class="websiteDrop">
+         <li>Kaffeudstyr <i class="fa-solid fa-chevron-down"></i></li> 
+            <div class="websiteDropContent">
+            <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
+        <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
+        <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>
+</div>
+</div>
             
             <!-- Webshop Kurser og events -->
             <div class="websiteDrop">
-           <li id="kurserWebshop" >Kurser og events <i class="fa-solid fa-chevron-down"></i></li> </a>
+           <li>Kurser og events <i class="fa-solid fa-chevron-down"></i></li> 
            <div class="websiteDropContent">
            <div id="menu">  <a href="<?php echo site_url('kurser') ?>">Kurser</a></div>
         <div id="menu">   <a href="<?php echo site_url('events') ?>">Events</a></div>
 </div>
 </div>
-            <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Erhverv</li> </a>
+<!-- Web Erhverv Dropdown -->
+<div class="websiteDrop">
+ <li>Erhverv <i class="fa-solid fa-chevron-down"></i></li> 
+            <div class="websiteDropContent">
+           <div id="menu">  <a href="<?php echo site_url('kurser') ?>">Kurser</a></div>
+        <div id="menu">   <a href="<?php echo site_url('events') ?>">Events</a></div>
+</div>
+</div>
             <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
             <a href="<?php echo site_url('gaveideer') ?>">  <li>Gaver</li> </a>
-            <a href="<?php echo site_url('blog') ?>">  <li>Om os</li> </a>
+            <!-- Om os -->
+            <div class="websiteDrop">
+           <li>Om os <i class="fa-solid fa-chevron-down"></i></li> 
+            <div class="websiteDropContent">
+            <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
+        <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
+        <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>
+</div>
+</div>
 </div>
      
 

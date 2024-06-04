@@ -15,6 +15,9 @@ h1 {
     color:rgb(10, 70, 14);
 }
 
+li {
+    width:180px;
+}
 
 
 p {
@@ -37,23 +40,31 @@ p {
 }
 
 .websiteDrop:hover {
-    background-color:#d8d3c3;
+    background-color:#7F706B;
+    
 }
 
 .websiteDrop {
     width:180px;
+    margin-right:1%;
+    margin-left:1%;
 }
 
 
 .websiteDropContent {
     display:none;
     position:absolute;
-    background-color:#d8d3c3;
-    width:180px;
+    background-color:#e5e0d2;
+    width:250px;
+    padding:1%;
+}
+
+.websiteDrop:hover {
+    color:white;
 }
 
 .websiteDropContent a {
-  padding-left:10%;
+  padding-left:2%;
 }
 
 /* VED IKKE OM DET HER SKAL BRUGES
@@ -76,7 +87,7 @@ p {
     text-decoration: none;
     list-style: none;
     justify-content: center;
-    margin-right:2%;
+ 
 }
 
 .website li {
@@ -211,6 +222,11 @@ border:solid #CB8580;
 
 #navlist {
     display:block;
+}
+
+#navlist a {
+    text-align: center;
+    width:150px;
 }
 
 #forsideBillede {

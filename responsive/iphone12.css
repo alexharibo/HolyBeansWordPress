@@ -11,6 +11,10 @@
         
     }
 
+
+    li {
+        width:auto;
+    }
     .mobile {
         display:block;
         position:sticky;
