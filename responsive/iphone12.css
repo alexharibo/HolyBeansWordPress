@@ -730,6 +730,11 @@ object-fit: cover;
     margin-bottom:5%;
 }
 
+.desktopRisterietIntroGrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 /* Alt med wocommerce */
 
@@ -858,5 +863,19 @@ margin-top:2%;
 
 .woocommerce-noreviews {
     display:none;
+}
+
+
+
+/* SKALERBARHED DESKTOP */
+
+
+
+#desktopRisteriet {
+    display:none;
+}
+
+#mobileRisteriet {
+    display:block;
 }
 }

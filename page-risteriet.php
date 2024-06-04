@@ -1,12 +1,70 @@
 <?php get_header(); ?>
 
 
-
-
-
-
 <?php while(have_posts()) 
     the_post(); ?>
+
+
+<div id="desktopRisteriet">
+<div class="container">
+    <section class="desktopRisterietIntro">
+<h1><?php the_title() ?></h1>
+<p>Hos Holy Bean er vi bevidste om det aftryk, vi sætter i verden, og de valg vi træffer. Derfor arbejder vi fokuseret med bæredygtighed og de 17 verdensmål. For os handler det primært om ansvarligt forbrug og produktion, hvorfor størstedelen af vores speciality kaffer er fra nøje udvalgte farme med fokus på social ansvarlighed, biodiversitet og miljø. </p>
+
+</section>
+
+<section class="desktopRisterietIntroGrid">
+    <div id="introGridIMG">
+<img src="<?php the_post_thumbnail_url(); ?>">
+</div>
+
+<div id="introGridTekst">
+<p>Bæredygtighed for os handler også om lokale projekter, som kan være med til at sætte fokus på uddannelse, kvinders rettigheder, klima og miljø samt minimering af spild. I bund og grund handler det om sund fornuft og det at have hjertet på rette sted uanset, om vi snakker den lokale kaffefarmer, vores kunder eller klima.</p>
+<p>Vi ved også, at vi har påbegyndt en lang rejse mod en mere ansvarlig måde at drive mikroristeri på. Vi kan ikke ændre verden alene, men de små skridt, vi tager sammen, kan gøre en forskel. </p>
+<p>Et af vores fokusområder i disse år er vores brug af emballage. Derfor har vi for eksempel skiftet vores hvide poser over til genanvendelige hvide poser. Det vil sige, de nu kan sorteres med plastik frem for restaffald. Et andet tiltag er vores nyopstartede samarbejde med RE-ZIP, som er cirkulær emballage til vores forsendelser. Hvis du vil vide mere om RE-ZIP cirkulær emballage kan du læse mere nedenfor.</p>
+</div>
+
+</div>
+</section>
+
+<section class="desktopRisterietIntro2">
+    <div id="introGridIMG2">
+<img src="<?php the_post_thumbnail_url(); ?>">
+</div>
+
+<div id="desktopRisterietIntro2txt">
+<h2>Hej</h2>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+    <div id="mobileRisteriet">
 <div class="container">
 <section class="risterietIntro">
 <img src="<?php the_post_thumbnail_url(); ?>" id="risterietImg">
@@ -63,9 +121,9 @@
        hvorimod en mørkristet kaffe nemmere slører defekterne, hvis de måtte findes i kaffen. 
        Kort sagt kan man sige, at pris, kvalitet og ristegrad som oftest hænger sammen.
 
-
 </div>
-
+</div>
+</div>
 
 </section>
 
