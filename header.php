@@ -46,12 +46,13 @@
             <div class="navlist">
             <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
             <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+            
+            <!-- Webshop Kurser og events -->
             <div class="websiteDrop">
            <li id="kurserWebshop" >Kurser og events <i class="fa-solid fa-chevron-down"></i></li> </a>
            <div class="websiteDropContent">
-           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
-           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
-           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+           <div id="menu">  <a href="<?php echo site_url('kurser') ?>">Kurser</a></div>
+        <div id="menu">   <a href="<?php echo site_url('events') ?>">Events</a></div>
 </div>
 </div>
             <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Erhverv</li> </a>

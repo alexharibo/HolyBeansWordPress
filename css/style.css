@@ -37,15 +37,23 @@ p {
 }
 
 .websiteDrop:hover {
-    background-color:blue;
+    background-color:#d8d3c3;
+}
+
+.websiteDrop {
+    width:180px;
 }
 
 
 .websiteDropContent {
     display:none;
     position:absolute;
-    background-color:blue;
-    width:8%;
+    background-color:#d8d3c3;
+    width:180px;
+}
+
+.websiteDropContent a {
+  padding-left:10%;
 }
 
 /* VED IKKE OM DET HER SKAL BRUGES
