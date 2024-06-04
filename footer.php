@@ -8,12 +8,12 @@
         <div class="desktopFooter">
         <div id="mobileLinks">
             <h2>Navigation</h2>
-        <a href="#">Kaffe</a>
-      <a href="#">Kaffeudstyr</a>
-      <a href="#">Kurser og events</a>
-      <a href="#">Erhverv</a>
-      <a href="#">Kaffeblog</a>
-      <a href="#">Om os</a>
+        <a href="<?php echo site_url('kaffe') ?>">Kaffe</a>
+      <a href=<?php echo site_url('kaffeudstyr') ?>>Kaffeudstyr</a>
+      <a href="<?php echo site_url('kurser') ?>">Kurser og events</a>
+      <a href="<?php echo site_url('erhverv') ?>">Erhverv</a>
+      <a href="<?php echo site_url('blog') ?>">Kaffeblog</a>
+      <a href="<?php echo site_url('risteriet') ?>">Om os</a>
 </div>
 
 <div id="mobileContact">
