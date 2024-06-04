@@ -289,16 +289,45 @@ padding: 1% 7%;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #mobileLinks a {
+    
+
+
+    #mobileLinks a{
         display:block;
-        width:30%;
+        
     }
+
+
+
+    #mobileLinks h2 {
+        margin-bottom:3%;
+    }
+
+    #mobileContact a {
+        display:block;
+    }
+
+    #mobileContact h2 {
+        margin-bottom:3%;
+    }
+
+    #mobileOpening a {
+        display:block;
+    }
+
+
+    #mobileOpening h2 {
+        margin-bottom:3%;
+    }
+    
+
    
     footer {
         background-color: #ECCAA1;
         padding:5% 7%;
-        margin-top:10%;
         font-family:'Poppins';
+   margin-top:10%;
+   align-items: center;
     }
 
     #footerLogo {
@@ -307,7 +336,30 @@ padding: 1% 7%;
         margin:auto;
     }
 
+    .bgContainer2 {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        background-color:#DEC6A7;
+        padding:0 5%;
+        padding-top:3%;
+        padding-bottom:3%;
+    
+    }
 
+    .risterietKvalitetskaffe {
+        background-color: #ECE4CA;
+        padding:0 5%;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+
+    #ansvarlighedTxt {
+      width:80ch;
+    }
+
+    #risterietTxt {
+        width:80ch;
+    }
 
 
 /* Alt stying med WooCommerce */
@@ -338,4 +390,106 @@ h2,
 
 .woocommerce-loop-product__title {
     font-size:1rem;
+}
+
+.woocommerce-loop-product__title {
+    font-size:1rem;
+}
+
+.woocommerce ul.products li.product .button {
+
+    color:white;
+    background-color:#7F706B;
+    width:80%;
+}
+
+h2,
+.woocommerce-loop-product__title,
+.woocommerce-loop-category__title {
+    padding: 0.20em 0;
+    margin: 0;
+    font-size: 0.85rem;
+width:100%;
+height:3%;
+    color:black;
+}
+
+
+.woocommerce img {
+    border-radius:15px;
+    height:50px;
+    object-fit: cover;
+}
+
+.woocommerce-products-header__title {
+    text-align: center;
+}
+
+#kaffeBeskrivelse {
+    text-align: center;
+    margin-bottom:5%;
+}
+
+
+
+.woocommerce-ordering {
+    margin-top:2%;
+}
+
+.orderby {
+    background-color:#fdf7e2;
+    width:100%;
+    height:5%;
+    border: solid 2px;
+    font-family:'Poppins';
+    padding:2%;
+}
+
+
+
+.woocommerce ul.products li.product a img {
+   height:300px;
+   width:30%;
+}
+
+.woocommerce-product-gallery__wrapper img {
+object-fit:cover;
+height:50%;
+border:solid 4px #C35047;
+width:98%;
+margin-top:2%;
+}
+
+.singleProductStyle {
+    background-color: #cd918d;
+}
+
+
+
+
+.singleProductStyle h1 {
+    color:black;
+    text-align: center;
+}
+
+.woocommerce span.onsale {
+    z-index:0;
+}
+
+/* FJERN ANMELDELSER */
+
+.tabs {
+    display:none;
+}
+
+.woocommerce-Reviews-title {
+    display:none;
+}
+
+#respond {
+    display:none;
+}
+
+.woocommerce-noreviews {
+    display:none;
 }

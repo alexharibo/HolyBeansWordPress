@@ -629,6 +629,7 @@ object-fit: cover;
 #risterietTxt {
     margin-top:5%;
     margin-bottom:8%;
+    width:100%;
 }
 
 
@@ -636,6 +637,7 @@ object-fit: cover;
 #ansvarlighedTxt {
     margin-top:5%;
     margin-bottom:8%;
+    width:100%;
 }
 
 #firmaeventsImg {
