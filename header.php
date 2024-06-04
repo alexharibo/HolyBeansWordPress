@@ -48,7 +48,7 @@
             <div class="websiteDrop">
         <li>Kaffe <i class="fa-solid fa-chevron-down"></i></li> </a>
             <div class="websiteDropContent">
-            <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
+            <div id="menu">     <a href="<?php echo site_url('specialty') ?>">Specialty</a></div>
         <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
         <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
         <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>

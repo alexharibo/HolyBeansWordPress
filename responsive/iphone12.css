@@ -28,6 +28,8 @@ justify-content: center;
 align-items: center;
     }
 
+
+
     .headerStylingMobile img {
         width:50%;
     }
@@ -278,6 +280,9 @@ a {
     margin-top:6%;
 }
 
+#moreMobileNAV a {
+    width:100%;
+}
 
 
 .container {
@@ -730,10 +735,7 @@ object-fit: cover;
     margin-bottom:5%;
 }
 
-.desktopRisterietIntroGrid {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 
 /* Alt med wocommerce */
