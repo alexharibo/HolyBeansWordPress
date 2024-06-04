@@ -11,6 +11,10 @@
         
     }
 
+    #introTekst {
+        margin-top:5%;
+    }
+
     .mobile {
         display:block;
         position:sticky;
