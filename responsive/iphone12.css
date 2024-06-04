@@ -328,8 +328,8 @@ a {
 
 
 .billedeTekst {
-    padding:3%;
-   
+    padding:0%;
+   width:100%;
 }
 
 
@@ -367,12 +367,50 @@ footer a {
 
 }
 
+#paddingCard {
+    padding:2%;
+}
 .card {
     display:block;
     margin:auto;
     background-color:#f5edd2;
     margin-top:5%;
     width:100%;
+    height:auto;
+}
+
+#relatedBlogH2 {
+    font-size:1rem;
+    padding-left:2%;
+margin-top:1%;
+ }
+
+.singleCard .kategoriUnderBillede {
+    text-align:center;
+    width:80%;
+    background-color:#7b6d5b;
+ margin-left:0.5%;
+    margin-right:3%;
+    border-radius:5px;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:0.5%;
+    margin-left:2%;
+}
+
+.singleCard {
+    display:block;
+    margin:auto;
+    background-color:#f5edd2;
+    margin-top:5%;
+    width:100%;
+    height:auto;
+}
+
+.singleCard h2 {
+    font-size:1rem;
+    margin-top:1%;
+    margin-bottom:0%;
 }
 
 .card h2 {
@@ -381,6 +419,12 @@ footer a {
 
 #cardImg {
 width:100%;
+height:25vh;
+object-fit: cover;
+}
+
+#singleCardImg {
+    width:100%;
 height:25vh;
 object-fit: cover;
 }
@@ -406,6 +450,18 @@ object-fit: cover;
     padding-top:0%;
     padding-left:1%;
 }
+
+.kategoriUnderBillede {
+    text-align:center;
+    width:80%;
+    background-color:#7b6d5b;
+ margin-left:2%;
+    margin-right:3%;
+    border-radius:5px;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:1%;
+    }
 
 .bgContainer {
 
@@ -741,6 +797,8 @@ height:3%;
 .woocommerce-ordering {
     margin-top:2%;
 }
+
+
 
 .orderby {
     background-color:#fdf7e2;

@@ -12,22 +12,25 @@
 
 
 
-<section class="oko">
 
-<div class="card">
-  <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
+
+<div class="singleCard">
+  <img src="<?php the_post_thumbnail_url() ?>" id="singleCardImg">
+  <div id="paddingCard">
   <p id="author">Udgivet af <?php the_author(); ?></p>
-  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   <div class="kategoriUnderBillede">
     <p><?php the_category(', '); ?></p>
       </div>
 
+
+
    
     <div class="billedeTekst">
-
+    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  
     <p><?php the_content(); ?></p>
-
+</div>
+</div>
     <section class="socialsBlogs">
         <p>Del på</p>
     <i class="fa-brands fa-facebook" id="socialsBlogsIcon"></i>
@@ -41,11 +44,11 @@
 </div>
 </div>
 
-</section>
+
 
 <div class="container">
 <section class="relatedBlogs">
-<h2>Relaterede blogindlæg</h2>
+<h2 id="relatedBlogH2">Relaterede blogindlæg</h2>
 <?php {
 
 $current_post_id = get_the_ID();
@@ -61,8 +64,10 @@ while($related->have_posts()) {
     $related->the_post(); ?>
   
 
-  <div class="card">
+  <div class="singleCard">
+
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
+  <div id="paddingCard">
   <p id="author">Udgivet af <?php the_author(); ?></p>
   <div class="kategoriUnderBillede">
     <p><?php the_category(', '); ?></p>
@@ -78,7 +83,7 @@ while($related->have_posts()) {
 
     
     </div>
-
+</div>
     </div>
 
 
@@ -87,7 +92,7 @@ while($related->have_posts()) {
 ?>
 
 
-</section>
+
 </div>
 
 </div>

@@ -16,6 +16,10 @@ function myFunction() {
   }
 
 
+  // Website Navigation
+
+
+
   // Lukker, når man trykker på exit-iconet
   function exitMobile() {
     var x = document.getElementById("exitMobile");

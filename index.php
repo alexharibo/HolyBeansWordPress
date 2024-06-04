@@ -41,6 +41,7 @@
         ?>
                 <div class="card">
                     <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
+                    <div id="paddingCard">
                     <p id="author">Udgivet af <?php the_author(); ?></p>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     <div class="kategoriUnderBillede">
@@ -51,6 +52,7 @@
                         <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                         <a href="<?php the_permalink(); ?>">Læs mere...</a>
                     </div>
+        </div>
                 </div>
         <?php
             endwhile;

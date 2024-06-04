@@ -384,12 +384,27 @@ footer a {
     width:100%;
 }
 
+.singleCard {
+    display:block;
+    margin:auto;
+    background-color:#f5edd2;
+    margin-top:5%;
+    width:100%;
+    height:auto;
+}
+
 .card h2 {
     padding-left:3%;
 }
 
 #cardImg {
 width:100%;
+height:25vh;
+object-fit: cover;
+}
+
+#singleCardImg {
+    width:100%;
 height:25vh;
 object-fit: cover;
 }

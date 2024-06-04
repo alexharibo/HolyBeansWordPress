@@ -32,6 +32,30 @@ p {
     margin-bottom:2%;
 }
 
+.websiteDrop:hover .websiteDropContent {
+    display:block;
+}
+
+.websiteDrop:hover {
+    background-color:blue;
+}
+
+
+.websiteDropContent {
+    display:none;
+    position:absolute;
+    background-color:blue;
+    width:8%;
+}
+
+/* VED IKKE OM DET HER SKAL BRUGES
+ */
+#navMoreWebsite {
+    display:none;
+    position:relative;
+    top:2;
+}
+
 .headerStylingWebsite img{
     display:flex;
     margin:auto;
@@ -206,16 +230,34 @@ background-color:#e2dbc8;
 padding: 0.5 7%;
 }
 
-.kategoriUnderBillede {
-    text-align:center;
-    width:80%;
+#paddingCard {
+    padding:2%;
+}
+
+.singleCard .kategoriUnderBillede {
+
+ text-align:center;
+    width:20%;
     background-color:#7b6d5b;
- margin-left:2%;
+ margin-left:0.5%;
     margin-right:3%;
     border-radius:5px;
     font-weight: light;
     padding:0.5%;
-    margin-top:1%;
+    margin-top:0.5%;
+    margin-left:2%;
+}
+
+.kategoriUnderBillede {
+    text-align:center;
+    width:80%;
+    background-color:#7b6d5b;
+ margin-left:0.5%;
+    margin-right:3%;
+    border-radius:5px;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:0.5%;
     }
 
     .kategoriUnderBillede a {
@@ -240,14 +282,80 @@ padding: 1% 7%;
         width:80%;
         overflow:hidden;
         background-color: #F6EDCF;
+        height:500px;
+    }
+
+    .singleCard {
+        display:block;
+        margin:auto;
+        background-color:#f5edd2;
+        margin-top:5%;
+        width:100%;
+        height:auto;
+    }
+
+  
+
+    .singleCard h2 {
+        font-size:2rem;
+        margin-bottom:2%;
+ 
+    }
+
+    .singleCard img {
+        object-fit: cover;
+        height:500px;
+    }
+
+    .card h2 {
+        padding-left:2%;
+        font-size:1rem;
+    }
+
+    #author {
+        padding:2%;
+        font-size:1rem;
+        padding-top:1%;
+    
     }
 
     #cardImg {
         width:100%;
+        height:300px;
+        object-fit: cover;
     }
 
+    #singleCardImg {
+        width:100%;
+    height:45vh;
+    object-fit: cover;
+    width:100%;
+    }
+
+ #relatedBlogH2 {
+    font-size:2rem;
+    padding-left:2%;
+margin-top:2%;
+ }
+
     .billedeTekst {
-        padding:2%;
+        padding:0%;
+        padding-bottom:2%;
+        padding-left:2%;
+    
+    }
+
+    .socialsBlogs {
+        display:block;
+        margin:auto;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+    #socialsBlogsIcon {
+        padding-top:1%;
+        font-size:40px;
     }
 
     #introTekst {
@@ -336,6 +444,14 @@ padding: 1% 7%;
         margin:auto;
     }
 
+
+    .bgContainer {
+
+        background-color:#F6EDCF;
+        padding-top:1%;
+        padding-bottom:5%;
+    }
+
     .bgContainer2 {
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -359,6 +475,28 @@ padding: 1% 7%;
 
     #risterietTxt {
         width:80ch;
+    }
+
+    #kategoriBanner button {
+       background-color:#433737;
+        color:white;
+        border-radius:5px;
+        border:none;
+      padding:2%;
+    
+      margin:1%;
+      font-weight: bolder;
+    width:200px;
+    cursor:pointer;
+    }
+
+    #kategoriBanner {
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: 1fr;
+        background-color: #433737;
+        
+        padding:2%;
     }
 
 
@@ -438,11 +576,12 @@ height:3%;
 
 .orderby {
     background-color:#fdf7e2;
-    width:100%;
+    width:20%;
     height:5%;
     border: solid 2px;
     font-family:'Poppins';
-    padding:2%;
+  
+   
 }
 
 
@@ -459,6 +598,7 @@ border:solid 4px #C35047;
 width:98%;
 margin-top:2%;
 }
+
 
 .singleProductStyle {
     background-color: #cd918d;

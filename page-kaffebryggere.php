@@ -40,7 +40,7 @@ get_header( 'shop' );
 		Sortér efter produkt</p>
 <form class="woocommerce-ordering" method="get">
 	<select name="orderby" class="orderby" aria-label="Shop order">
-	<option value="menu_order"  selected='selected'>Normal sortering</option>
+	<option value="menu_order"  selected='selected'><p>Normal sortering</p></option>
 					<option value="popularity" >Sorter efter populæreste</option>
 					<option value="rating" >Sorter efter bedst anmeldte</option>
 					<option value="date" >Sorter efter nyeste</option>

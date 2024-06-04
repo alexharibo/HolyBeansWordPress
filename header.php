@@ -46,14 +46,24 @@
             <div class="navlist">
             <a href="<?php echo site_url('shop') ?>">    <li>Kaffe</li> </a>
             <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
-                <li>Kurser og events</li>
-                <li>Erhverv</li>
-                <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
-                <li>Om os</li>
+            <div class="websiteDrop">
+           <li id="kurserWebshop" >Kurser og events <i class="fa-solid fa-chevron-down"></i></li> </a>
+           <div class="websiteDropContent">
+           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+           <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Kaffeudstyr</li> </a>
+</div>
+</div>
+            <a href="<?php echo site_url('kaffeudstyr') ?>"> <li>Erhverv</li> </a>
+            <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
+            <a href="<?php echo site_url('gaveideer') ?>">  <li>Gaver</li> </a>
+            <a href="<?php echo site_url('blog') ?>">  <li>Om os</li> </a>
 </div>
      
 
-     
+   <div id="navMoreWebsite">
+    <p>Test</p>
+</div>
         
     
     </div>
