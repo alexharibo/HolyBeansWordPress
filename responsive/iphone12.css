@@ -44,7 +44,10 @@ align-items: center;
 
  
 
-
+     .desktopFooter {
+        display:block;
+     }
+ 
 
 
     footer {

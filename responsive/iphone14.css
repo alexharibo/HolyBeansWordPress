@@ -50,6 +50,11 @@ align-items: center;
      } 
 
 
+     .desktopFooter {
+        display:block;
+     }
+ 
+
     footer {
         background-color: #ECCAA1;
         padding:5% 7%;

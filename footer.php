@@ -5,7 +5,9 @@
          <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="footerLogo">
         </div>
 
+        <div class="desktopFooter">
         <div id="mobileLinks">
+            <h2>Navigation</h2>
         <a href="#">Kaffe</a>
       <a href="#">Kaffeudstyr</a>
       <a href="#">Kurser og events</a>
@@ -27,6 +29,7 @@
     <h2>Åbningstider</h2>
 <p>Mandag - torsdag 8-15</p>
 <p>Fredag 8-13</p>
+</div>
 
 </div>
 </footer>

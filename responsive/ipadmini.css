@@ -57,7 +57,9 @@ align-items: center;
      }
 
   
-
+     .desktopFooter {
+       display:block;
+    }
 
     footer {
         background-color: #ECCAA1;
