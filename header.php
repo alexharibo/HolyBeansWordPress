@@ -48,22 +48,22 @@
             <div class="websiteDrop">
         <li>Kaffe <i class="fa-solid fa-chevron-down"></i></li> </a>
             <div class="websiteDropContent">
-            <div id="menu">     <a href="<?php echo site_url('specialty') ?>">Kaffekopper</a></div>
-        <div id="menu">   <a href="<?php echo site_url('classic-kaffe') ?>">Kaffebryggere</a></div>
-        <div id="menu">   <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a></div>
-        <div id="menu">   <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a></div>
-        <div id="menu">   <a href="<?php echo site_url('elkedler') ?>">Elkedel</a></div>
-        <div id="menu">   <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a></div>
+            <div id="menu">     <a href="<?php echo site_url('specialty') ?>">Specialty</a></div>
+        <div id="menu">   <a href="<?php echo site_url('classic-kaffe') ?>">Classic Kaffe</a></div>
+        <div id="menu">   <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffeabonnement') ?>">Kaffeabonnement</a></div>
 </div>
 </div>
 <!-- Web Kaffeudstyr -->
 <div class="websiteDrop">
          <li>Kaffeudstyr <i class="fa-solid fa-chevron-down"></i></li> 
             <div class="websiteDropContent">
-            <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
-        <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
-        <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
-        <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>
+            <div id="menu">     <a href="<?php echo site_url('specialty') ?>">Kaffekopper</a></div>
+        <div id="menu">   <a href="<?php echo site_url('classic-kaffe') ?>">Kaffebryggere</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a></div>
+        <div id="menu">   <a href="<?php echo site_url('elkedler') ?>">Elkedel</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a></div>
 </div>
 </div>
             
@@ -79,8 +79,8 @@
 <div class="websiteDrop">
  <li>Erhverv <i class="fa-solid fa-chevron-down"></i></li> 
             <div class="websiteDropContent">
-           <div id="menu">  <a href="<?php echo site_url('kurser') ?>">Kurser</a></div>
-        <div id="menu">   <a href="<?php echo site_url('events') ?>">Events</a></div>
+           <div id="menu">  <a href="<?php echo site_url('firmaevents') ?>">Firmaevents</a></div>
+
 </div>
 </div>
             <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
