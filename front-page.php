@@ -81,7 +81,6 @@ while ($homePosts->have_posts()) {
     <p>Kategori</p>
       </div>
 
-   
     <div class="billedeTekst">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     <p><?php the_content(); ?>

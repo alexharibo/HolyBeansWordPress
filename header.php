@@ -89,8 +89,8 @@
         <div id="menu">  <li>Kaffeudstyr</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent3()"></i></div>
         <div id="menu">   <li>Kurser og events</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent2()"></i></div>
         <div id="menu">   <li>Erhverv</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent4()"></i></div>
-      <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> 
-      <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a>
+        <div id="menu">   <a href="<?php echo site_url('blog') ?>">  Kaffeblog </a> </div>
+        <div id="menu"> <a href="<?php echo site_url('gaveideer') ?>"> Gaver</a></div>
       <div id="menu">   <li>Om os</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent5()"></i></div>
       
       <div id="iconsToNavlist">
@@ -107,10 +107,10 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('specialty') ?>">Specialty Kaffe</a>
-    <a href="<?php echo site_url('classic-kaffe') ?>">Classic Kaffe</a>
-    <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a>
-    <a href="<?php echo site_url('/kaffeabonnement') ?>">Kaffeabonnement</a>
+        <div id="menu">   <a href="<?php echo site_url('specialty') ?>">Specialty Kaffe</a></div>
+        <div id="menu">   <a href="<?php echo site_url('classic-kaffe') ?>">Classic Kaffe</a></div>
+        <div id="menu">    <a href="<?php echo site_url('raa-kaffebonner') ?>">Rå kaffebønner</a></div>
+  <div id="menu">    <a href="<?php echo site_url('/kaffeabonnement') ?>">Kaffeabonnement</a></div>
 </div>
 </div>
 
@@ -121,8 +121,8 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('kurser') ?>">Kurser</a>
-    <a href="<?php echo site_url('events') ?>">Events</a>
+        <div id="menu">  <a href="<?php echo site_url('kurser') ?>">Kurser</a></div>
+        <div id="menu">   <a href="<?php echo site_url('events') ?>">Events</a></div>
 </div>
 </div>
 
@@ -134,12 +134,12 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a>
-    <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a>
-    <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a>
-    <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a>
-    <a href="<?php echo site_url('elkedler') ?>">Elkedel</a>
-    <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a>
+        <div id="menu">   <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a></div>
+        <div id="menu">  <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a></div>
+        <div id="menu">  <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a></div>
+        <div id="menu">  <a href="<?php echo site_url('elkedler') ?>">Elkedel</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a></div>
 </div>
 </div>
 
@@ -150,7 +150,7 @@
         </div>
 
         <div id="moreMobileNAV">
-    <a href="<?php echo site_url('firmaevents') ?>">Firmaevents</a>
+        <div id="menu">  <a href="<?php echo site_url('firmaevents') ?>">Firmaevents</a></div>
 
 
 </div>
@@ -164,10 +164,10 @@
         </div>
 
         <div id="moreMobileNAV">
-        <a href="<?php echo site_url('risteriet') ?>">Risteriet</a>
-    <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a>
-    <a href="<?php echo site_url('kontakt') ?>">Kontakt</a>
-    <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a>
+        <div id="menu">     <a href="<?php echo site_url('risteriet') ?>">Risteriet</a></div>
+        <div id="menu">   <a href="<?php echo site_url('ansvarlighed') ?>">Vores ansvarlighed</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kontakt') ?>">Kontakt</a></div>
+        <div id="menu">   <a href="<?php echo site_url('vilkaar') ?>">Vilkår</a></div>
 </div>
 </div>
 
