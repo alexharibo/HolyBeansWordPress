@@ -41,8 +41,6 @@
         </div>
         <div class="logo">
         <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>
-     
-
         </div>
 
             <div class="navlist">
@@ -67,17 +65,17 @@
 
         
          
-        <div class="logo">
+ <div class="logo">
         <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>
-        </div>
+</div>
        
 
-                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars" id="menuIkon"></i>
-                  </a>
     </div>
 
-
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" id="menuIkon"></i>
+                  </a>
+   
 
     <div id="navlist">
     

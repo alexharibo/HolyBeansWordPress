@@ -32,7 +32,7 @@ p {
     margin-bottom:2%;
 }
 
-#logo {
+.headerStylingWebsite img{
     display:flex;
     margin:auto;
     margin-top:0.5%;

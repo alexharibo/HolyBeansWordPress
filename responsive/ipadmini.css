@@ -26,19 +26,37 @@
        
     }
 
- .icon {
-    margin-top:2.5%;
-  }
-
-
-    .logo {
-        color:black;
+    .mobile {
+        display:block;
+        position:sticky;
+        top:0;
+        z-index:1;
     }
 
-    #logo {
+    .headerStylingMobile {
+display:flex;
+justify-content: center;
+align-items: center;
+    }
+
+    .headerStylingMobile img {
         width:50%;
-        padding-left:95%;
     }
+
+.logo img {
+    display:block;
+    margin:auto;
+}
+
+   #menuIkon {
+        position:absolute;
+        right:2%;
+        top:25%;
+        margin-left:auto;
+        margin-top:1.5%;
+     }
+
+  
 
 
     footer {
@@ -58,7 +76,7 @@
 
 .topBanner {
     display:flex;
-    font-size:0.5rem;
+    font-size:1rem;
     padding:2%;
 }
 
@@ -78,7 +96,7 @@
     width:100%;
     background-color:#f5edd2;
    animation: overlay 1s;
-   height:80vh;
+ 
 }
 
 a {
@@ -106,7 +124,7 @@ a {
     }
    
     100% {
-        height:80vh;
+        height:100vh;
     }
 }
 
@@ -119,7 +137,7 @@ a {
     font-size:40px;
     justify-content: space-evenly;
     padding:5%;
-    margin-top:10%;
+    margin-top:0%;
 }
 
 
@@ -426,7 +444,7 @@ object-fit: cover;
 .endPoints h2 {
     text-align:left;
     margin-bottom:10%;
-    font-size:0.85rem;
+    font-size:1rem;
 }
 
     /* Image Slider */
@@ -613,12 +631,18 @@ object-fit: cover;
 
 #risterietImg {
     width:100%;
+    height:300px;
+    object-fit:cover;
 }
 
 #risterietTxt {
     margin-top:5%;
     margin-bottom:8%;
 }
+
+#risterietTxt2 {
+    display:flex;
+ }
 
 #ansvarlighedTxt {
     margin-top:5%;
@@ -725,15 +749,17 @@ height:3%;
 
 .woocommerce-ordering {
     margin-top:2%;
+
 }
 
 .orderby {
     background-color:#fdf7e2;
-    width:100%;
+    width:40%;
     height:5%;
     border: solid 2px;
     font-family:'Poppins';
     padding:2%;
+    
 }
 
 

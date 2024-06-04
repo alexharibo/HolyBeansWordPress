@@ -58,14 +58,14 @@ function HolyBeans_post_types () {
     
     register_post_type('events', array(
            'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
-           'rewrite' => array('slug' => 'Events'),
+           'rewrite' => array('slug' => 'events'),
            'public' => true,
            'labels' => array(
-               'name' => 'Event',
+               'name' => 'Events',
                'add_new_item' => 'Tilføj event',
                'edit_item' => 'Ændr event',
                'all_items' => 'Alle events',
-               'singular_name' => 'Event',
+               'singular_name' => 'Event'
 
            ),
            'menu_icon' => 'dashicons-star-filled'

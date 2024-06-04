@@ -47,7 +47,7 @@
 
 <div class="container">
 <section class="relatedBlogs">
-<h2>Relaterede kurser</h2>
+<h2>Relaterede events</h2>
 
 
 <?php

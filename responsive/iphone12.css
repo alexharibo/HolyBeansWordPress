@@ -19,27 +19,32 @@
     }
 
     .headerStylingMobile {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color:#fdf7e2;
-        padding:3%;
-       
+display:flex;
+justify-content: center;
+align-items: center;
     }
 
- .icon {
-    margin-top:2.5%;
-  }
-
-
-    .logo {
-        color:black;
-    }
-
-    #logo {
+    .headerStylingMobile img {
         width:50%;
-        padding-left:25%;
     }
+
+.logo img {
+    display:block;
+    margin:auto;
+}
+
+   #menuIkon {
+        position:absolute;
+        right:2%;
+        top:25%;
+        margin-left:auto;
+        margin-top:1.5%;
+     }
+
+
+ 
+
+
 
 
     footer {
@@ -622,6 +627,8 @@ object-fit: cover;
     margin-top:5%;
     margin-bottom:8%;
 }
+
+
 
 #ansvarlighedTxt {
     margin-top:5%;
