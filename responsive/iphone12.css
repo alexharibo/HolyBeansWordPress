@@ -342,13 +342,15 @@ a {
 }
 
 
+
 .billedeTekst a {
     font-weight:bolder;
-    padding:1%;
+   padding-left:2%;
 }
 
 .billedeTekst p {
     margin-bottom:5%;
+    padding-left:2%;
 }
 
 #mobileLinks {
@@ -434,7 +436,7 @@ margin-top:1%;
 }
 
 .card h2 {
-    padding-left:3%;
+    padding-left:2%;
 }
 
 #cardImg {

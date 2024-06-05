@@ -112,21 +112,3 @@ endif;
 ?>
 
 
-
-endwhile;
-wp_reset_postdata();
-else :
-echo '<p>Ingen indlæg fundet i denne kategori.</p>';
-endif;
-?>
-
-</section>
-</div>
-
-</div>
-
-
-
-<?php get_footer();
-
-?>
