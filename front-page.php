@@ -61,12 +61,13 @@ while(have_posts()) {
 </section>
 
 <div class="container">
-<section class="lastestBlog">
 <h2>Seneste på kaffebloggen</h2>
+<section class="lastestBlog">
+<section class="oko">
 <?php 
 $homePosts = new WP_Query(
   array(
-      'posts_per_page' => 1,
+      'posts_per_page' => 3,
       'orderby' => 'date',
   )
 );
@@ -74,7 +75,7 @@ $homePosts = new WP_Query(
 
 while ($homePosts->have_posts()) {
   $homePosts->the_post(); ?>
- <section class="oko">
+
 
 <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
@@ -84,18 +85,21 @@ while ($homePosts->have_posts()) {
 
     <div class="billedeTekst">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <p><?php the_content(); ?>
-    </p>
+    <p><?php the_excerpt(); ?>
+    <a href="<?php the_permalink(); ?>">Læs mere...</a>
+ </p>
+   
+</div>
 
     </div>
-    </div>
-</section>
-</div>
+
+
 <?php }
 ?>
-
-
 </section>
+</section>
+</div>
+
 </section>
 
 

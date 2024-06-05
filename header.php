@@ -61,6 +61,7 @@
             <div id="menu">     <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffekander') ?>">Kaffekander</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a></div>
         <div id="menu">   <a href="<?php echo site_url('elkedler') ?>">Elkedel</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffekvaerne') ?>">Kaffekværne</a></div>
