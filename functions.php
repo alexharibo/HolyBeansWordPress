@@ -18,36 +18,6 @@ add_action ('wp_enqueue_scripts', 'HolyBeans_file', 'init');
 
 add_theme_support('woocommerce');
 
-function remove_woocommerce_styles($enqueue_styles) {
-    unset ($enqueue_styles['woocommerce-general'] ); 
-    //unset( $enqueue_styles['woocommerce-layout'] ); 
-    //unset( $enqueue_styles['woocommerce-smallscreen'] ); 
-    return $enqueue_styles;
-}
-
-add_filter ('woocommerce_enqueue_styles', 'remove_woocommerce_styles');
-// 		add_filter( 'woocommerce_enqueue_styles', '__return_false' );
-
-	
-
-// Laver min egen woocommerce style
-
-function wp_enqueue_woocommerce_style () {
-
-    
-    wp_register_style('mytheme-woocommerce', get_template_directory_uri() . '/css/woocommerce/woocommerce.css');
-
-
-    
-
-    
-   
-    if ( class_exists ('woocommerce') ) {
-        wp_enqueue_style('mytheme-woocommerce');
-    }
-}
-
-add_action ('wp_enqueue_scripts' , 'wp_enqueue_woocommerce_style' );
 
 
 // Custom Post Types
