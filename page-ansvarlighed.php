@@ -2,7 +2,7 @@
 
 <?php while(have_posts()) 
     the_post(); ?>
-
+<!-- DESKTOP -->
 <div id="desktopRisteriet">
 <div class="container">
     <section class="desktopRisterietIntro">
@@ -58,11 +58,19 @@
     Du modtager IKKE en rabatkode, hvis pakken sendes retur til Holy Bean, 
     smides ud eller andet.</p>
 </div>
+<div id="ansvarlighedTxt">
+   <p>Ved at bruge RE-ZIP cirkulær emballage er du med til at reducere 
+    CO2e-udledningen med 80%, 89% reduceret vandforbrug og 93% reduceret træforbrug.</p>
+</div>
+
+<div id="ansvarlighedTxt">
+   <p>Du kan læse meget mere om RE-ZIP og hele deres tankegang bag RE-ZIP lige her.</p>
+</div>
 </section>
 
 
 
-
+<!-- MOBIL -->
 <div id="mobileRisteriet">
 <div class="container">
 <section class="ansvarlighedIntro">
