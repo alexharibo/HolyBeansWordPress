@@ -59,8 +59,9 @@ Vi forbeholder os retten til at aflyse/rykke datoen ved for få tilmeldinger.</p
 </section>
 
 <div class="container">
+<h2 id="relatedBlogH2">Relaterede kurser</h2>
 <section class="relatedBlogs">
-<h2>Relaterede kurser</h2>
+
 
 <?php
 $current_post_id = get_the_ID();

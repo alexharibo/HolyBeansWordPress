@@ -47,8 +47,9 @@
 
 
 <div class="container">
-<section class="relatedBlogs">
 <h2 id="relatedBlogH2">Relaterede blogindlæg</h2>
+<section class="relatedBlogs">
+
 <?php {
 
 $current_post_id = get_the_ID();
