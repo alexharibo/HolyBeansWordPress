@@ -26,7 +26,7 @@
   <p id="author">Udgivet af <?php the_author(); ?></p>
  <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                         <a href="<?php the_permalink(); ?>">Læs mere...</a>
-<?php echo get_field("test123"); ?>
+
 
 <div id="kursusKnap">
 <button class="valgMuligheder">Vælg muligheder</button>
@@ -77,7 +77,7 @@
   <p id="author">Udgivet af <?php the_author(); ?></p>
  <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                         <a href="<?php the_permalink(); ?>">Læs mere...</a>
-<?php echo get_field("test123"); ?>
+
 
 <div id="kursusKnap">
 <button class="valgMuligheder">Vælg muligheder</button>
