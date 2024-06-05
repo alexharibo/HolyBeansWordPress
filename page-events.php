@@ -10,7 +10,7 @@
 <!-- DESKTOP -->
 <div id="desktopKurser">
     <div class="container">
-    <h1>Aktuelle kurser</h1>
+    <h1>Aktuelle events</h1>
     <?php
         $query = new WP_Query(array(
             'post_type' => "events",
@@ -32,15 +32,6 @@
   <p id="author">Udgivet af <?php the_author(); ?></p>
  <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                         <a href="<?php the_permalink(); ?>">Læs mere...</a>
-<?php echo get_field("test123"); ?>
-
-<div id="kursusKnap">
-<button class="valgMuligheder">Vælg muligheder</button>
-        </div>
-
-
-     
-
 
 </div>
 </div>
@@ -88,15 +79,14 @@
 
 
    <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
+   <div id="mobilEventTXT">
   <h2> <?php the_title() ?></h2>
   <p id="author">Udgivet af <?php the_author(); ?></p>
 <p><?php the_content() ?></p>
 <a href="<?php the_permalink(); ?>">Læs mere...</a>
-<?php echo get_field("test123"); ?>
-
-<div id="kursusKnap">
-<button class="valgMuligheder">Vælg muligheder</button>
         </div>
+
+
 <?php
 
 

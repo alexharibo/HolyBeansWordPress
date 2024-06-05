@@ -46,8 +46,8 @@
 </section>
 
 <div class="container">
+<h2 id="relatedBlogH2">Relaterede events</h2>
 <section class="relatedBlogs">
-<h2>Relaterede events</h2>
 
 
 <?php
@@ -73,9 +73,6 @@ $related = new WP_Query(array(
   <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
   <p id="author">Udgivet af <?php the_author(); ?></p>
-  <div class="kategoriUnderBillede">
-    <p><?php the_category(', '); ?></p>
-      </div>
 
    
     <div class="billedeTekst">
@@ -93,6 +90,26 @@ $related = new WP_Query(array(
 
 
     <?php
+
+
+
+endwhile;
+wp_reset_postdata();
+else :
+echo '<p>Ingen indlæg fundet i denne kategori.</p>';
+endif;
+?>
+
+</section>
+</div>
+
+</div>
+
+
+
+<?php get_footer();
+
+?>
 
 
 
