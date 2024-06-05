@@ -916,5 +916,11 @@ margin-top:2%;
     display:none;
 }
 
+#kontaktMobil {
+    display:block;
+}
 
+#kontaktDesktop {
+    display:none;
+}
 }

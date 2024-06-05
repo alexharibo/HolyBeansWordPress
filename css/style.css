@@ -269,6 +269,11 @@ border:solid #CB8580;
     padding: 0 7%;
 }
 
+#kontaktGrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #kategoriList {
 display:flex;
 background-color:#e2dbc8;
@@ -278,6 +283,14 @@ padding: 0.5 7%;
 #paddingCard {
     padding:2%;
 }
+
+#kontaktGridIMG {
+   margin:2%;
+}
+
+#kontaktGridTXT {
+    margin:2%;
+ }
 
 .singleCard .kategoriUnderBillede {
 
@@ -869,4 +882,7 @@ margin-top:2%;
     display:none;
 }
 
+#kontaktMobil {
+    display:none;
+}
 
