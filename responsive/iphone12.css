@@ -895,4 +895,12 @@ margin-top:2%;
 #desktopKaffeabonnement {
     display:none;
 }
+
+#mobilKurser {
+    display:block;
+}
+
+#desktopKurser {
+    display:none;
+}
 }

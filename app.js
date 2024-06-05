@@ -16,7 +16,7 @@ function myFunction() {
   }
 
 
-  // Website Navigation
+
 
 
 
@@ -153,42 +153,3 @@ for (i= 0; i < accordion.length; i++) {
 }
 
 
-// Image Slider
-
-const carousel = document.querySelector('.carousel');
-
-
-
-let isDragStart = false, prevPageX, prevScrollLeft;
-
-const dragStart = (e) => {
-  isDragStart = true;
-  prevPageX = e.pageX;
-  prevScrollLeft = carousel.scrollLeft;
-}
-
-
-const dragging = (e) => {
-  if(!isDragStart) return;
-  e.preventDefault();
-let positionDiff = e.pageX - prevPageX;
-carousel.scrollLeft = prevScrollLeft - positionDiff;
-}
-
-const dragStop = () => {
-  isDragStart = false;
-}
-
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("mousemove", dragging);
-carousel.addEventListener("mouseup", dragStop);
-
-
-
-//const knap = document.querySelector('.kategori')
-//const indhold = document.querySelector('.container');
-
-//function changeContent() {
- // document.querySelector('.container').innerHTML = "Hej";
- // document.querySelector('.kategori').style.backgroundColor = "red";
-//}
