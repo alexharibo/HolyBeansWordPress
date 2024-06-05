@@ -374,10 +374,34 @@ padding: 1% 7%;
         object-fit: cover;
     }
 
+    #flexEventTXT p {
+        padding-bottom:2%;
+    }
+
+    #flexEventTXT a {
+        font-weight:bolder;
+    }
+
     #eventImg {
-        width:50%;
-        height:300px;
+        width:80%;
+        height:400px;
         margin:2%;
+        object-fit:cover;
+    }
+    
+    #flexEventIMG {
+        justify-content: center;
+        margin-left:5%;
+    }
+
+    #flexEventTXT h2 {
+        font-size:2rem;
+    }
+
+    #flexEventTXT #author {
+        padding-top:4%;
+        padding-left:0.1%;
+        padding-bottom:4%;
     }
 
     #singleCardImg {
