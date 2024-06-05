@@ -10,6 +10,19 @@
 
 <div id="kontaktDesktop">
 <div class="container">
+<div id="kontaktOs">
+<h1>Kontakt os</h2>
+<p>Er der noget, vi kan hjælpe med?
+Send en mail eller ring os op, så svarer vi hurtigst muligt
+</p>
+<p id="kontaktTLF"><i class="fa-solid fa-phone"></i> +45 50 50 88 36</p>
+    </div>
+
+    <div id="aaben">
+<h2>Åbningstider</h2>
+<p>Du er altid velkommen til at kigge indenfor i risteriet og afhente eller købe kaffe, men da vi er en produktionsvirksomhed er det ikke altid, vi har så meget tid til dig. 
+    Du er velkommen til at besøge os, når vi holder åbent i risteriet:Mandag-torsdag 8.00-15.00, fredag 8.00-13.00.</p>
+    </div>
 <?php
         $query = new WP_Query(array(
             'post_type' => "medarbejder",
@@ -62,6 +75,20 @@
 
 <div id="kontaktMobil">
 <div class="container">
+<div id="kontaktOs">
+<h1>Kontakt os</h2>
+<p>Er der noget, vi kan hjælpe med?
+Send en mail eller ring os op, så svarer vi hurtigst muligt
+</p>
+<p id="kontaktTLF"><i class="fa-solid fa-phone"></i> +45 50 50 88 36</p>
+ 
+
+    <div id="aaben">
+<h2>Åbningstider</h2>
+<p>Du er altid velkommen til at kigge indenfor i risteriet og afhente eller købe kaffe, men da vi er en produktionsvirksomhed er det ikke altid, vi har så meget tid til dig. 
+    Du er velkommen til at besøge os, når vi holder åbent i risteriet:</p>
+    <p>Mandag-torsdag 8.00-15.00, fredag 8.00-13.00.</p>
+    </div>
 <?php
         $query = new WP_Query(array(
             'post_type' => "medarbejder",

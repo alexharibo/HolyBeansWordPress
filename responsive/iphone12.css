@@ -438,9 +438,11 @@ margin-top:1%;
 }
 
 #cardImg {
-width:100%;
-height:25vh;
-object-fit: cover;
+        width:100%;
+       
+        margin:0%;
+        object-fit:cover;
+    
 }
 
 #singleCardImg {
@@ -839,6 +841,30 @@ height:3%;
     padding:2%;
 }
 
+#aaben {
+    margin-top:5%;
+}
+
+#aaben p {
+    
+    margin-bottom:2%;
+    width:100%;
+}
+
+#kontaktTLF {
+   margin-top:2%;
+   margin-bottom:2%;
+}
+
+#aaben h2 {
+    font-size:1rem;
+    margin-top:10%;
+    margin-bottom:1%;
+}
+
+#kontaktOs h1 {
+    margin-bottom:0.2%;
+}
 
 .woocommerce ul.products li.product a img {
     height:20%;
