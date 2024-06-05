@@ -21,9 +21,10 @@ while(have_posts()) {
 </div>
 
   
-
+<div id="popularProducts">
 <h2>Populære kaffeprodukter</h2>
-<?php echo do_shortcode('[products columns=2 limit=5 category=popular ]'); ?>
+<?php echo do_shortcode('[products columns=5 limit=5 category=popular ]'); ?>
+</div>
 
 </div>
 <div class="bgContainer2">

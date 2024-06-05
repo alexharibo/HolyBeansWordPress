@@ -44,6 +44,10 @@ html {
 }
 
 
+#popularProducts img {
+height:30%;
+}
+
 #kaffeabonnementPic {
     width:100%;
 }
