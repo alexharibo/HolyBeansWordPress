@@ -18,9 +18,7 @@
   <img src="<?php the_post_thumbnail_url() ?>" id="singleCardImg">
   <div id="paddingCard">
   <p id="author">Udgivet af <?php the_author(); ?></p>
-  <div class="kategoriUnderBillede">
-    <p><?php the_category(', '); ?></p>
-      </div>
+
 
 
 
