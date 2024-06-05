@@ -30,6 +30,7 @@ get_header( 'shop' );
 
 
 ?>
+<div id="kaffeDesign">	
 <header class="woocommerce-products-header">
 <div class="container">
     
@@ -113,6 +114,7 @@ echo do_shortcode('[products columns=6 limit=10 category=classic ]');
 	</section>
 </header>
     </div>
+	</div>
 <?php
 
 

@@ -635,6 +635,34 @@ margin-top:2%;
     width:90%;
 }
 
+
+#kaffeDesign img {
+    border: solid 2px;
+    border-color:#E4A32A;
+}
+
+#gaveDesign img {
+    height:200px;
+    object-fit: cover;
+    border-radius:2px;
+}
+
+#gaveDesign .product {
+    background-color:#F4E7C6;
+}
+
+#gaveDesign .woocommerce-loop-product__title {
+    margin:4%;
+}
+
+#gaveDesign .woocommerce-Price-amount {
+    margin:4%;
+}
+
+#gaveDesign .button {
+    display:none;
+}
+
 h2,
 .woocommerce-loop-product__title,
 .woocommerce-loop-category__title {

@@ -30,8 +30,10 @@ get_header( 'shop' );
 
 
 ?>
+<div id="kaffeDesign">	
 <header class="woocommerce-products-header">
 <div class="container">
+
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
@@ -53,7 +55,10 @@ get_header( 'shop' );
 			</select>
 	<input type="hidden" name="paged" value="1" />
 	</form>
+	
+
 	<?php endif; ?>
+
 <?php 
 
 
@@ -110,10 +115,11 @@ echo do_shortcode('[products columns=6 limit=10 category=specialty ]');
 <a href="<?php echo site_url('/gaveideer') ?>"> 
 	<img src="<?php echo get_theme_file_uri('/assets/burundiespresso.png') ?>"></a>
 </div>
-
+	
 
 </header>
     </div>
+	
 <?php
 
 

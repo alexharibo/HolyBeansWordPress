@@ -58,8 +58,8 @@
 <div class="websiteDrop">
          <li>Kaffeudstyr <i class="fa-solid fa-chevron-down"></i></li> 
             <div class="websiteDropContent">
-            <div id="menu">     <a href="<?php echo site_url('specialty') ?>">Kaffekopper</a></div>
-        <div id="menu">   <a href="<?php echo site_url('classic-kaffe') ?>">Kaffebryggere</a></div>
+            <div id="menu">     <a href="<?php echo site_url('kaffekopper') ?>">Kaffekopper</a></div>
+        <div id="menu">   <a href="<?php echo site_url('kaffebryggere') ?>">Kaffebryggere</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffefilter') ?>">Kaffefilter</a></div>
         <div id="menu">   <a href="<?php echo site_url('kaffevaegte') ?>">Kaffevægte</a></div>
         <div id="menu">   <a href="<?php echo site_url('elkedler') ?>">Elkedel</a></div>
