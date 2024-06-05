@@ -138,6 +138,10 @@ a {
     overflow:hidden;
 }
 
+.entryPoint h2 {
+    margin-bottom:5%;
+}
+
 .entryPoint {
     padding: 7% 7%;
 }
