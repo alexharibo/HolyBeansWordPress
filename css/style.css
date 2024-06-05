@@ -11,9 +11,7 @@ html {
     margin:0;
 }
 
-h1 {
-    color:rgb(10, 70, 14);
-}
+
 
 
 
@@ -372,12 +370,39 @@ padding: 1% 7%;
         height:auto;
     }
 
-  #vilkaar p {
-    width:50ch;
+
+
+  .vilkaarDesign {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .privat p {
-    width: 50ch;
+  #vilkaar p {
+    width:40ch;
+  }
+
+  #privat p {
+    width: 40ch;
+  }
+
+  #bestilling p {
+    width: 40ch;
+  }
+
+  #forsendelse p {
+    width:40ch;
+  }
+
+  #levering p {
+    width:40ch;
+  }
+
+  #afhentning p {
+    width:40ch;
+  }
+
+  #yderligereSpg p {
+    width:40ch;
   }
 
     .singleCard h2 {

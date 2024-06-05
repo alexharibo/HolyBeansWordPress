@@ -513,6 +513,40 @@ margin-left:0%;
     
     }
 
+
+.vilkaarDesign {
+    display:block;
+  }
+
+  #vilkaar p {
+    width:100%;
+  }
+
+  #privat p {
+    width:100%;
+  }
+
+  #bestilling p {
+    width:100%;
+  }
+
+  #forsendelse p {
+    width:100%;
+  }
+
+  #levering p {
+    width:100%;
+  }
+
+  #afhentning p {
+    width:100%;
+  }
+
+  #yderligereSpg p {
+      width:100%;
+  }
+
+
 .bgContainer {
 
     background-color:#F6EDCF;

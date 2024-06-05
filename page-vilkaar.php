@@ -14,6 +14,8 @@
 <p>Opdateret 18/12/2022</p>
 </div>
 
+<div class="vilkaarDesign">
+
 <div id="privat">
 <h2>Privatlivspolitik</h2>
 <p>Holy Bean forstår og respekterer vigtigheden af privatliv på internettet. Holy Bean indsamler og behandler navn, e-mailadresse, 
@@ -55,6 +57,8 @@ Der sendes kun til adresser i Danmark med mindre andet er aftalt.</p>
 <p>Hvis du skulle have yderligere spørgsmål, er du også velkommen til at kontakte os på: +45 50 50 88 36.</p>
 </div>
 
+
+</div>
     </div>
 <?php 
 
