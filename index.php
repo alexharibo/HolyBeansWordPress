@@ -40,7 +40,7 @@
 
         ?>
                 <div class="card">
-                    <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
+                    <img src="<?php the_post_thumbnail_url(); ?>" id="blogImg">
                     <div id="paddingCard">
                     <p id="author">Udgivet af <?php the_author(); ?></p>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

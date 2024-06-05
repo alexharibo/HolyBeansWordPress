@@ -38,7 +38,7 @@ Send en mail eller ring os op, så svarer vi hurtigst muligt
 
 <div id="kontaktGrid">
 <div id="kontaktGridIMG">
-<img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">
+<img src="<?php the_post_thumbnail_url(); ?>" id="kontaktImg">
 </div>
 
 <div id="kontaktGridTXT">
