@@ -737,13 +737,21 @@ margin-left:0%;
 }
 
 #gaveDesign img {
-    height:250px;
+    height:200px;
     object-fit: cover;
     border-radius:2px;
 }
 
 #gaveDesign .product {
     background-color:#F4E7C6;
+}
+
+#gaveDesign .woocommerce-loop-product__title {
+    margin:2%;
+}
+
+#gaveDesign .woocommerce-Price-amount {
+    margin:2%;
 }
 
 #gaveDesign .button {
