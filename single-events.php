@@ -12,7 +12,7 @@
 
 
 
-<section class="oko">
+<section class="singleCard">
 
 <div class="card">
   <img src="<?php the_post_thumbnail_url() ?>" id="cardImg">
