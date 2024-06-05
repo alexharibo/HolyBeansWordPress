@@ -35,7 +35,12 @@ get_header( 'shop' );
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
-        <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
+        <p id="kaffeBeskrivelse">Hvis du selv vil riste din egen kaffe, kan du købe alle kaffer fra vores sortiment som rå kaffebønner. 
+			Vores kaffe har være er ude på en lang rejse inden de ankommer til vores risteri på Fyn, og for at de skal komme frem i bedst mulig kvalitet, får vi dem pakket og leveret i særlige Grainpro-sække. 
+			Grainpro-sækkene beskytter mod lugt og uønskede aromaer udefra, svamp, råd og andet, der kan true kaffebønnernes kvalitet under transporten og oplagring. 
+			Når bønnerne er ankommet til vores lager i Holy Bean indgår de i vores produktion og vi kontrollerer derfor løbende bønnernes kvalitet. 
+			Vi tilstræber kun have bønnerne på lager i 1 år fra de er modtaget. 
+			Når vi sælger grønne kaffebønner til private, pakkes de om i  almindelige folieposer, som også sikrer dem imod sollys.</p>
         <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
 		Sortér efter produkt</p>
 <form class="woocommerce-ordering" method="get">

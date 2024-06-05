@@ -577,6 +577,7 @@ object-fit: cover;
 
 #kaffeabonnementTxt {
     padding-left:2%;
+    font-size:1rem;
 }
 
 #kaffeabonnementTxt button {
@@ -599,7 +600,9 @@ object-fit: cover;
 }
 
 #kaffeabonnementPris {
-    margin-top:5%;
+    width:100%;
+    margin-top:0%;
+    margin-left:0%;
 }
 
 #kaffeabonnementPris p {
@@ -609,6 +612,7 @@ object-fit: cover;
 .kaffeabonnementInformation {
     padding-top:5%;
     padding-bottom:5%;
+    width:100%;
 }
 
 #kaffeabonnementValg select {
@@ -671,6 +675,8 @@ object-fit: cover;
     border:none;
     font-family: "DM Sans", sans-serif;
 }
+
+
 
 .kaffeabonnementAc:after {
     content: '\02795'; 
@@ -801,6 +807,7 @@ height:3%;
 #kaffeBeskrivelse {
     text-align: center;
     margin-bottom:5%;
+    width:100%;
 }
 
 
@@ -879,5 +886,13 @@ margin-top:2%;
 
 #mobileRisteriet {
     display:block;
+}
+
+#mobilKaffeabonnement {
+    display:block;
+}
+
+#desktopKaffeabonnement {
+    display:none;
 }
 }

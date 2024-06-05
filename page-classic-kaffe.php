@@ -35,7 +35,10 @@ get_header( 'shop' );
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
-        <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
+        <p id="kaffeBeskrivelse">Her finder du vores fulde sortiment af classic sort kaffe og classic espresso.
+Vi ønsker med denne kaffeserie, at bygge bro imellem den klassiske kop kaffe og den unikke smagsoplevelse, som man får, når man smager en kop af den fineste specialkaffe.
+Denne kaffe er til dig som ønsker lidt mere end klassisk kaffe.
+Vi rister denne serie mørkere, end vi normalt rister kaffe. Dog ikke så mørk, at alle nuancer og aromaer forsvinder.</p>
         <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
 		Sortér efter produkt</p>
 <form class="woocommerce-ordering" method="get">

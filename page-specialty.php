@@ -35,7 +35,11 @@ get_header( 'shop' );
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
-        <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
+        <p id="kaffeBeskrivelse">Her finder du vores fulde sortiment af specialtykaffer til filter og espresso. Vi leverer friskristede kaffebønner, fordi det giver den bedste kaffeoplevelse. 
+			Kaffen smager bedst efter at have hvilet i et par dage op til ca. 3 uger, derfor rister vi løbende på vores mikroristeri. 
+			Dette sikrer, at vores kunder altid får den bedste smagsoplevelse med friskristede bønner.
+			 Når vi vælger kaffe, er det vigtigt, at den er 100% arabica, dyrket med ansvarlighed og af højeste kvalitet.
+</p>
         <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
 		Sortér efter produkt</p>
 <form class="woocommerce-ordering" method="get">

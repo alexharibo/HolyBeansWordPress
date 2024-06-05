@@ -139,7 +139,7 @@
       <div id="menu">   <li>Om os</li> <i class="fa-solid fa-angle-right" id="menuIcon2" onclick="moreContent5()"></i></div>
       
       <div id="iconsToNavlist">
-      <i class="fa-regular fa-heart"></i>
+ 
       <i class="fa-solid fa-bag-shopping"></i>
       <i class="fa-solid fa-magnifying-glass"></i>
 
