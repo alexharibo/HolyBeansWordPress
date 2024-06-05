@@ -36,8 +36,8 @@
     <header class="website">
         <div class="headerStylingWebsite">
         <div class="koeb">
-            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
-            <i class="fa-solid fa-cart-shopping" id="purchase"></i>
+        <i class="fa-solid fa-bag-shopping" id="shoppingIcon"></i>
+
         </div>
         <div class="logo">
         <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>

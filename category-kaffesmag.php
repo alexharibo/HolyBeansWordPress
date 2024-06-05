@@ -15,13 +15,13 @@
         <?php
         $category_slug = 'kaffesmag'; 
 
-        $query = new WP_Query(array(
+        $category = new WP_Query(array(
             'category_name' => $category_slug,
             'posts_per_page' => 1
         ));
 
-        if ($query->have_posts()) :
-            while ($query->have_posts()) : $query->the_post();
+        if ($category->have_posts()) :
+            while ($category->have_posts()) : $category->the_post();
         ?>
                 <div class="card">
                     <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">

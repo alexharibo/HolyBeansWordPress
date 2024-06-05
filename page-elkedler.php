@@ -15,7 +15,7 @@ get_header( 'shop' );
     
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
-        <p id="kaffeBeskrivelse">Velkommen til denne side om kaffe.</p>
+
         <div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
 		Sortér efter produkt</p>
 <form class="woocommerce-ordering" method="get">

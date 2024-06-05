@@ -316,18 +316,14 @@ padding: 0.5 7%;
     margin:2%;
  }
 
-.singleCard .kategoriUnderBillede {
+.koeb i {
+    font-size:2rem;
+}
 
- text-align:center;
-    width:80%;
-    background-color:#7b6d5b;
- margin-left:0.5%;
-    margin-right:3%;
-    border-radius:5px;
-    font-weight: light;
-    padding:0.5%;
-    margin-top:0.5%;
-    margin-left:2%;
+#shoppingIcon {
+    position:absolute;
+    top:12%;
+    right:8%;
 }
 
 .kategoriUnderBillede {
@@ -338,7 +334,7 @@ padding: 0.5 7%;
     margin-right:3%;
     border-radius:5px;
     font-weight: light;
-    padding:0.5%;
+    padding:0.1%;
     margin-top:0.5%;
     }
 
@@ -376,7 +372,13 @@ padding: 1% 7%;
         height:auto;
     }
 
-  
+  #vilkaar p {
+    width:50ch;
+  }
+
+  .privat p {
+    width: 50ch;
+  }
 
     .singleCard h2 {
         font-size:2rem;
