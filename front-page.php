@@ -41,12 +41,12 @@ while(have_posts()) {
 
 
 </div id="kaffeabonnementImg">
-<img src="<?php the_post_thumbnail_url(); ?>" id="kaffeabonnementPic">
+<img src="<?php echo get_field("kaffeabonnementImg"); ?>" id="kaffeabonnementPic">
 </div>
  </div>
 
  <section class="risterietKvalitetskaffe">
-<img src="<?php the_post_thumbnail_url(); ?>" id="risterietImg">
+
 <div id="ansvarlighedTxt">
 <h1>Re-Zip</h1>
 <p>Hos Holy Bean har vi et ønske om at minimere vores aftryk på verden.

@@ -51,8 +51,15 @@ height:30%;
 }
 
 #kaffeabonnementPic {
-    width:100%;
+ 
+        width:60%;
+        height:60vh;
+        border-radius:5px;
+        padding-top:5%;
+        padding-left:5%;
 }
+
+
 
 .valgMuligheder {
     background-color: #7E6D58;
