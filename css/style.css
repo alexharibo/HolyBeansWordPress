@@ -15,14 +15,9 @@ h1 {
     color:rgb(10, 70, 14);
 }
 
-li {
-    width:180px;
-}
 
 
-p {
-    margin:2px;
-}
+
 
 .mobile {
     display:none;
@@ -76,7 +71,7 @@ p {
     position:absolute;
     z-index:2;
     background-color:#e5e0d2;
-    width:250px;
+    width:10%;
     padding:1%;
 }
 
@@ -103,6 +98,13 @@ p {
     margin-bottom:1%;
 }
 
+
+#navJust {
+    padding-left:4%;
+    padding-right:4%;
+}
+
+
 .navlist {
     display:flex;
     text-decoration: none;
@@ -112,10 +114,11 @@ p {
 }
 
 .website li {
-    text-indent: 1rem;
+padding-left:10%;
+padding-right:10%;
     text-align: center;
-   
 }
+
 
 a {
     text-decoration: none;
@@ -883,10 +886,10 @@ width:98%;
 margin-top:2%;
 }
 
-
-.singleProductStyle {
-    background-color: #cd918d;
+.woocommerce-Tabs-panel {
+    margin-bottom:2%;
 }
+
 
 .relatedBlogs {
     display:grid;
@@ -929,6 +932,8 @@ margin-top:2%;
     display:none;
 }
 
+
+
 /* SKALERBARHED DESKTOP */
 
 
@@ -948,3 +953,70 @@ margin-top:2%;
     display:none;
 }
 
+/* Div for WooCommerce hooket */
+.related .products  {
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    padding-left:0;
+}
+
+/* Selve produktet */
+.related .product {
+
+    padding-right:2%;
+}
+
+.related .product img {
+    width:80%;
+}
+
+.product_meta {
+    display:none;
+}
+
+
+.related .woocommerce-loop-product__title {
+margin-bottom:5%;
+
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.related h2 {
+    font-size:2rem;
+}
+
+.products h2 {
+    font-size:1rem;
+}
+
+.summary button {
+    width:30%;
+    border:none;
+    padding:1%;
+    background-color:#7E6D58;
+    color:white;
+    font-family: "DM Sans", sans-serif;
+    margin-top:2%;
+}
+
+.cart {
+    display:flex;
+    justify-content: center;
+
+}
+
+.summary .price {
+    font-weight:bolder;
+    font-size:1.2rem;
+    padding-bottom:1%;
+    text-align:center;
+}
+
+.quantity {
+    display:none;
+}

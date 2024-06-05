@@ -763,6 +763,14 @@ margin-left:0%;
     margin:4%;
 }
 
+.price {
+    padding-top:7%;
+}
+
+.quantity {
+    display:none;
+}
+
 #gaveDesign .woocommerce-Price-amount {
     margin:4%;
 }
@@ -906,11 +914,61 @@ margin-top:2%;
 }
 
 .singleProductStyle {
-    background-color: #cd918d;
+    background-color:#fdf7e2;
+}
+
+
+.related .products  {
+    display:block;
+    padding-left:2%;
+    
+}
+
+.related .woocommerce-loop-product__title {
+    margin-bottom:5%;
+    
+    }
+  
+
+.related .product {
+        margin:0%;
+         margin:auto;
+         padding-right:0%;
+         padding-bottom:2%;
+}
+
+.related .type-product {
+    margin-bottom:5%;
+    background-color:#e2dbc0;
+}
+
+.related .product img {
+    width:100%;
+}
+
+.summary button {
+    width:100%;
+    border:none;
+    padding:5%;
+    background-color:#7E6D58;
+    color:white;
+    font-family: "DM Sans", sans-serif;
 }
 
 
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.related h2 {
+    font-size:2rem;
+}
+
+.products h2 {
+    font-size:1rem;
+}
 
 .singleProductStyle h1 {
     color:black;
@@ -939,6 +997,11 @@ margin-top:2%;
     display:none;
 }
 
+.summary .price {
+    font-weight:bolder;
+    font-size:1.2rem;
+    padding-bottom:1%;
+}
 
 
 /* SKALERBARHED DESKTOP */

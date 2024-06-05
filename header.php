@@ -83,8 +83,8 @@
 
 </div>
 </div>
-            <a href="<?php echo site_url('blog') ?>">  <li>Kaffeblog</li> </a>
-            <a href="<?php echo site_url('gaveideer') ?>">  <li>Gaver</li> </a>
+            <a href="<?php echo site_url('blog') ?>" id="navJust">  Kaffeblog </a>
+            <a href="<?php echo site_url('gaveideer') ?>" id="navJust">  Gaver</a>
             <!-- Om os -->
             <div class="websiteDrop">
            <li>Om os <i class="fa-solid fa-chevron-down"></i></li> 
@@ -113,7 +113,7 @@
         
          
  <div class="logo">
-        <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="logo"></a>
+        <a href="<?php echo site_url('') ?>">    <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?> " id="logo"></a>
 </div>
        
 
