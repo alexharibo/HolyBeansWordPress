@@ -15,13 +15,13 @@
         <?php
         $category_slug = 'kaffeetik'; 
 
-        $query = new WP_Query(array(
+        $kategori = new WP_Query(array(
             'category_name' => $category_slug,
-            'posts_per_page' => 1
+            'posts_per_page' => 8
         ));
 
-        if ($query->have_posts()) :
-            while ($query->have_posts()) : $query->the_post();
+        if ($kategori->have_posts()) :
+            while ($kategori->have_posts()) : $kategori->the_post();
         ?>
                 <div class="card">
                     <img src="<?php the_post_thumbnail_url(); ?>" id="cardImg">

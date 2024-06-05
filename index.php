@@ -27,15 +27,16 @@
    
 
    
-        $query = new WP_Query(array(
+        $blogs = new WP_Query(array(
            
-            'posts_per_page' => 5 
+            'posts_per_page' => 5,
+            'orderby' => 'DATE'
         ));
 
 
         
-        if ($query->have_posts()) :
-            while ($query->have_posts()) : $query->the_post();
+        if ($blogs->have_posts()) :
+            while ($blogs->have_posts()) : $blogs->the_post();
       
 
         ?>
