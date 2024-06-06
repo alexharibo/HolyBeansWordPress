@@ -477,6 +477,12 @@ padding: 1% 7%;
         font-weight:bolder;
     }
 
+    #cafeIMG {
+        width:100%;
+        height:40vh;
+        object-fit: cover;
+    }
+
     #eventImg {
         width:80%;
         height:400px;
