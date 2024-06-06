@@ -518,31 +518,31 @@ margin-left:0%;
     display:block;
   }
 
-  #vilkaar p {
+  #design1 p {
     width:100%;
   }
 
-  #privat p {
+  #design2 p {
     width:100%;
   }
 
-  #bestilling p {
+  #design3 p {
     width:100%;
   }
 
-  #forsendelse p {
+  #design4 p {
     width:100%;
   }
 
-  #levering p {
+  #design5 p {
     width:100%;
   }
 
-  #afhentning p {
+  #design6 p {
     width:100%;
   }
 
-  #yderligereSpg p {
+  #design7 p {
       width:100%;
   }
 
@@ -718,6 +718,10 @@ margin-bottom:5%;
     border:none;
     font-family: "DM Sans", sans-serif;
   
+}
+
+#cafeIMG {
+    width:100%;
 }
 
 #manedskaffe {

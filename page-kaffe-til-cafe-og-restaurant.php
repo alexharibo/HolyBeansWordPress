@@ -8,49 +8,45 @@
 <?php while(have_posts()) 
     the_post(); ?>
 <div class="container">
-
+<img src="<?php the_post_thumbnail_url(); ?>" id="cafeIMG">
 <div id="vilkaar">
-<h1>Vilkår</h1>
-<p>Opdateret 18/12/2022</p>
+<h1>Kaffe til Café og Restaurant</h1>
+
 </div>
 
 <div class="vilkaarDesign">
 
 <div id="privat">
-<h2>Privatlivspolitik</h2>
-<p>Holy Bean forstår og respekterer vigtigheden af privatliv på internettet. Holy Bean indsamler og behandler navn, e-mailadresse, 
-    fysisk adresse (hvis relevant), telefonnummer (hvis relevant), IP-adresse, geolokation, cookies, pixel og andre identifikationer, 
-    Holy Bean produkt- og købsoplysninger samt din feedback på disse, hvis det er relevant. 
-    Holy Bean vil ikke afsløre information om kunder/brugere til tredje part, med mindre det er nødvendigt for at implementere en transaktion. 
-    Holy Bean vil ikke sælge dit navn, adresse, e-mail adresse, kreditkort eller personlige data til nogen tredje part uden din forudgående tilladelse.
-Handel på denne webbutik indebærer følgende forretningsbetingelser:
+<h2>Giv dine gæster en unik kaffeoplevelse</h2>
+<p>Lægger du vægt på kvalitet, de rene råvarer og den ultimative smagsoplevelse, så vil vi anbefale dig at vælge en kaffe som efterlever dette i hver eneste servering.
 </div>
 
 <div id="bestilling">
-<h2>Bestilling</h2>
-<p>Hvis du har forespørgsler til varer, som ikke er på siden, er du velkommen til at kontakte os. Alle priser er inkl. moms og afgifter.
-Du bestiller en vare ved først at lægge den i kurven. Dernæst skal du klikke på “kurv”, her har du mulighed for at ændre din ordre inden du fortsætter. Hvis du forsætter købet, bliver du bedt om at angive leveringsoplysninger og valg af betalingsform.
-Der tages på webshoppen forbehold for prisfejl, udsolgte eller udgåede varer, korrekturfejl samt force majeure. Vi forbeholder os desuden retten til at annullere en bestilling, såfremt vi har mistanke om betalingskortsvindel.
-Der tages også forbehold for billeder som ikke altid viser 100% varens indhold, dette kan være farveforskel mv.</p>
+<h2>Kvalitet og velsmag</h2>
+<p>Hos Holy Bean Coffee Roasters går vi ikke på kompromis med hverken smagen eller kvaliteten. Vi tror på de rene råvarer og udvælger de fineste speciality kaffer,
+     fordi vi ved, at det påvirker de mange hænder, når vi vælger at købe og drikke kaffe af en høj kvalitet. Hos Holy Bean Coffe Roasters ønsker vi at bevare kaffens unikke karakteristika samt smagsnuancer, hvorfor vi altid lysrister vores kaffer.
+     Hos Holy Bean Coffee Roasters er friske råvarer noget af det allervigtigste. Derfor er vores kaffe altid friskristet.</p>
 </div>
 
 <div id="forsendelse">
-<h2>Betaling/forsendelse</h2>
-<p>Du kan vælge at betale via VISA/Mastercard, Mobile Pay. Vi sender varer alle hverdage. Ordren annulleres, hvis vi ikke har modtaget pengene inden for 5 bankdage efter bestilling.
-Alle priser er inkl. moms og afgift.</p>
+<h2>Det gode håndværk</h2>
+<p>For os går det gode håndværk  hånd i hånd med den unikke kaffeoplevelse, som smag og kvalitet. Vi arbejder konstant på at forfine håndværket og riste vores kaffe til perfektion, 
+    så smagsnuancerne bevares. Vi vægter et godt samarbejde med leverandørerne samt en tæt og åben dialog med farmerne højt. 
+    Kun på den made ved vi, hvordan farmerne arbejder og hvad de står for i selve dyrkningen af kaffebønnen.</p>
 </div>
 
 <div id="levering">
-    <h2>Levering</h2>
-    <p>Gratis fragt for levering til pakkeshop ved ordre over 499 kr. Her sender vi pakken uden omdeling til en valgfri pakkeshop (GLS). Ønsker du pakken med omdeling eller til erhvervsadresse fremgår prisen af hjemmesiden.
-Vi benytter GLS pakke service til vores pakker
-Vi ekspederer ordrerne i den rækkefølge, vi modtager dem. Undtaget er varer, hvor det er angivet, at det er en bestillingsvare med længere leveringstid. Normal leveringstid til adresser i Danmark er 2-3 hverdage efter ordreafsendelse. Alle varer leveres så længe lager haves.
-Der sendes kun til adresser i Danmark med mindre andet er aftalt.</p>
+    <h2>Kaffe dyrket og ristet med omtanke</h2>
+    <p>Hos Holy Bean Coffee Roasters producerer vi med omtanke. Det vil sige, at de fleste af vores kaffer er økologisk dyrket, støtter forskellige lokale projekter som for eksempel La Finca Humana eller noget helt tredje. Det kan vi, fordi vi altid køber kaffe af en høj kvalitet.
+Vi forsøger, så vidt det er muligt, altid at handle direkte med farmeren og på den måde minimere fordyrrende mellemled. Herved kan vi sikre bonden en langt mere fair pris og samtidig opbygge en tættere relation og forståelse for hinandens arbejde.
+ Derfor har vi også besøgt størstedelen af vores leverandører og kan tilbyde vores kunder kafferejser til vores kaffefarmere.</p>
 </div>
 
     <div id="afhentning">
-<h2>Afhentning</h2>
-<p>Det er muligt at afhente varer i vores risteri efter aftale. Du modtager besked om, hvornår din pakke er klar til afhentning.</p>
+<h2>Høj service og leveringssikkerhed</h2>
+<p>Holy Bean Coffee Roasters er et mikroristeri på Fyn, hvor høj service og leveringssikkerhed er nogle af nøgleordene. For os er det vigtigt, at du som restaurantchef, 
+    barista eller nyopstartet caféejer er klædt på med vores viden og erfaring, så du kan give dine kunder den bedste helheds-kaffeoplevelse. Derfor tilbyder vi også skoling og uddannelse inden for kaffens univers, og vi følger vores samarbejdspartnere tæt. Relationen mellem os og vores partnere er vigtig, og vi lægger vægt på en høj gennemsigtighed i den måde, vi driver forretning på. Hos Holy Bean Coffee Roasters har vi investeret i produktionsfaciliteter, 
+    som sikrer dig en høj leveringssikkerhed, men også fleksibilitet i produktionen og løsningen af dine opgaver.</p>
 </div>
 
 <div id="yderligereSpg">
