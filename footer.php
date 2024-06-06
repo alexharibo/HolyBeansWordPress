@@ -2,8 +2,8 @@
  
 <footer>
 <div class="logo">
-         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="footerLogo">
-        </div>
+         <img src="<?php echo get_theme_file_uri('/assets/logo.png') ?>" id="footerLogo"></div>
+        
 
         <div class="desktopFooter">
         <div id="mobileLinks">
@@ -30,9 +30,9 @@
 <p>Mandag - torsdag 8-15</p>
 <p>Fredag 8-13</p>
 </div>
+</div>
 
-</div>
-</div>
+
 </footer>
 
 
