@@ -2,23 +2,17 @@
 
     
       
+        
+    
     .headerStylingWebsite {
         display:none;
         
     }
 
-    #introTekst {
-        margin-top:5%;
+
+    li {
+        width:auto;
     }
-
-    .mobile {
-        display:block;
-        position:sticky;
-        top:0;
-        z-index:1;
-    }
-
-
     .mobile {
         display:block;
         position:sticky;
@@ -31,6 +25,8 @@ display:flex;
 justify-content: center;
 align-items: center;
     }
+
+
 
     .headerStylingMobile img {
         width:50%;
@@ -47,13 +43,16 @@ align-items: center;
         top:25%;
         margin-left:auto;
         margin-top:1.5%;
-     } 
+     }
 
 
+ 
      .desktopFooter {
         display:block;
      }
  
+
+
 
     footer {
         background-color: #ECCAA1;
@@ -91,8 +90,10 @@ align-items: center;
     width:100%;
     background-color:#f5edd2;
    animation: overlay 1s;
-   height:80vh;
+    height:80vh;
 }
+
+
 
 a {
     list-style: none;
@@ -119,7 +120,7 @@ a {
     }
    
     100% {
-        height:80vh;
+       height:80vh;
     }
 }
 
@@ -142,6 +143,7 @@ a {
   color:black;
  padding:5%;
   font-size:1.5rem;
+ margin:auto;
 }
 
 
@@ -276,10 +278,13 @@ a {
     margin-top:6%;
 }
 
+#moreMobileNAV a {
+    width:100%;
+}
 
 
 .container {
-    padding: 0 5%;
+    padding: 0 6%;
     margin-top:5%;
 }
 
@@ -330,24 +335,30 @@ a {
 
 
 .billedeTekst {
-    padding:3%;
-   
+    padding:0%;
+   width:100%;
 }
+
 
 
 .billedeTekst a {
     font-weight:bolder;
-    padding:1%;
+   padding-left:2%;
 }
 
 .billedeTekst p {
     margin-bottom:5%;
+    padding-left:2%;
 }
 
 #mobileLinks {
     margin-bottom:5%;
     margin-top:5%;
+    margin-left:4%;
+    padding:0%;
 }
+
+
 
 #mobileOpening {
     margin-bottom:5%;
@@ -369,12 +380,50 @@ footer a {
 
 }
 
+#paddingCard {
+    padding:2%;
+}
 .card {
     display:block;
     margin:auto;
     background-color:#f5edd2;
     margin-top:5%;
     width:100%;
+    height:auto;
+}
+
+#relatedBlogH2 {
+    font-size:1rem;
+    padding-left:2%;
+margin-top:1%;
+ }
+
+ #relatedBlogs h2 {
+    padding-left:1%;
+ }
+
+ .relatedBlogs {
+    display:block;
+}
+
+.relatedBlogs .singleCard {
+    width: 100%;
+    margin:0%;
+    margin-top:2%;
+}
+
+
+.singleCard .kategoriUnderBillede {
+    text-align:center;
+    width:80%;
+    background-color:#7b6d5b;
+ margin-left:0.5%;
+    margin-right:3%;
+    border-radius:5px;
+    font-weight: light;
+    padding:0.5%;
+    margin-top:0.5%;
+    margin-left:2%;
 }
 
 .singleCard {
@@ -386,20 +435,42 @@ footer a {
     height:auto;
 }
 
+.singleCard h2 {
+    font-size:1rem;
+    margin-top:1%;
+    margin-bottom:0%;
+}
+
 .card h2 {
     padding-left:2%;
 }
 
 #cardImg {
-width:100%;
-height:25vh;
-object-fit: cover;
+        width:100%;
+       
+        margin:0%;
+        object-fit:cover;
+    
+}
+
+#kontaktImg {
+    width:100%;
+       
+    margin:0%;
+    object-fit:cover;
+}
+
+#blogImg {
+    width:100%;
+    margin:0%;
+    object-fit:cover;
 }
 
 #singleCardImg {
     width:100%;
 height:25vh;
 object-fit: cover;
+margin-left:0%;
 }
 
 .carousel img {
@@ -423,6 +494,60 @@ object-fit: cover;
     padding-top:0%;
     padding-left:1%;
 }
+
+#mobilKurser a {
+    font-weight:bolder;
+  margin-bottom:2%;
+}
+
+#mobilEventTXT {
+    margin-bottom:5%;
+}
+
+
+.kategoriUnderBillede {
+    text-align:center;
+    width:100%;
+    background-color:#7b6d5b;
+    border-radius:5px;
+    font-weight: light;
+    padding:0%;
+    
+    }
+
+
+.vilkaarDesign {
+    display:block;
+  }
+
+  #design1 p {
+    width:100%;
+  }
+
+  #design2 p {
+    width:100%;
+  }
+
+  #design3 p {
+    width:100%;
+  }
+
+  #design4 p {
+    width:100%;
+  }
+
+  #design5 p {
+    width:100%;
+  }
+
+  #design6 p {
+    width:100%;
+  }
+
+  #design7 p {
+      width:100%;
+  }
+
 
 .bgContainer {
 
@@ -494,6 +619,7 @@ object-fit: cover;
     #kursusKnap {
         display:flex;
         justify-content: center;
+margin-bottom:5%;
     }
 
 .valgMuligheder {
@@ -529,6 +655,7 @@ object-fit: cover;
 
 #kaffeabonnementTxt {
     padding-left:2%;
+    font-size:1rem;
 }
 
 #kaffeabonnementTxt button {
@@ -543,15 +670,21 @@ object-fit: cover;
 }
 
 #kaffeabonnementPic {
-    width:90%;
-    border-radius:5px;
-    padding-top:10%;
-    padding-left:5%;
+  
+ 
+        width:80%;
+        height:auto;
+        border-radius:5px;
+        padding-top:5%;
+        padding-left:5%;
+
     
 }
 
 #kaffeabonnementPris {
-    margin-top:5%;
+    width:100%;
+    margin-top:0%;
+    margin-left:0%;
 }
 
 #kaffeabonnementPris p {
@@ -561,6 +694,7 @@ object-fit: cover;
 .kaffeabonnementInformation {
     padding-top:5%;
     padding-bottom:5%;
+    width:100%;
 }
 
 #kaffeabonnementValg select {
@@ -586,6 +720,10 @@ object-fit: cover;
     border:none;
     font-family: "DM Sans", sans-serif;
   
+}
+
+#cafeIMG {
+    width:100%;
 }
 
 #manedskaffe {
@@ -624,6 +762,8 @@ object-fit: cover;
     font-family: "DM Sans", sans-serif;
 }
 
+
+
 .kaffeabonnementAc:after {
     content: '\02795'; 
   font-size: 13px;
@@ -646,11 +786,15 @@ object-fit: cover;
 #risterietTxt {
     margin-top:5%;
     margin-bottom:8%;
+    width:100%;
 }
+
+
 
 #ansvarlighedTxt {
     margin-top:5%;
     margin-bottom:8%;
+    width:100%;
 }
 
 #firmaeventsImg {
@@ -665,13 +809,29 @@ object-fit: cover;
 }
 
 #gaveDesign img {
-    height:250px;
+    height:200px;
     object-fit: cover;
     border-radius:2px;
 }
 
 #gaveDesign .product {
     background-color:#F4E7C6;
+}
+
+#gaveDesign .woocommerce-loop-product__title {
+    margin:4%;
+}
+
+.price {
+    padding-top:7%;
+}
+
+.quantity {
+    display:none;
+}
+
+#gaveDesign .woocommerce-Price-amount {
+    margin:4%;
 }
 
 #gaveDesign .button {
@@ -682,6 +842,8 @@ object-fit: cover;
     margin-top:5%;
     margin-bottom:5%;
 }
+
+
 
 
 /* Alt med wocommerce */
@@ -705,6 +867,7 @@ padding-bottom:0%;
 
 video {
     width:100%;
+    height:auto;
 }
 
 .woocommerce-loop-product__title {
@@ -734,6 +897,11 @@ height:3%;
     border-radius:15px;
     height:50px;
     object-fit: cover;
+  
+}
+
+#kaffeDesign img {
+    width:98%;
 }
 
 .woocommerce-products-header__title {
@@ -743,6 +911,7 @@ height:3%;
 #kaffeBeskrivelse {
     text-align: center;
     margin-bottom:5%;
+    width:100%;
 }
 
 
@@ -750,6 +919,8 @@ height:3%;
 .woocommerce-ordering {
     margin-top:2%;
 }
+
+
 
 .orderby {
     background-color:#fdf7e2;
@@ -760,9 +931,34 @@ height:3%;
     padding:2%;
 }
 
+#aaben {
+    margin-top:5%;
+}
+
+#aaben p {
+    
+    margin-bottom:2%;
+    width:100%;
+}
+
+#kontaktTLF {
+   margin-top:2%;
+   margin-bottom:2%;
+}
+
+#aaben h2 {
+    font-size:1rem;
+    margin-top:10%;
+    margin-bottom:1%;
+}
+
+#kontaktOs h1 {
+    margin-bottom:0.2%;
+}
 
 .woocommerce ul.products li.product a img {
     height:20%;
+
 }
 
 .woocommerce-product-gallery__wrapper img {
@@ -774,11 +970,61 @@ margin-top:2%;
 }
 
 .singleProductStyle {
-    background-color: #cd918d;
+    background-color:#fdf7e2;
+}
+
+
+.related .products  {
+    display:block;
+    padding-left:2%;
+    
+}
+
+.related .woocommerce-loop-product__title {
+    margin-bottom:5%;
+    
+    }
+  
+
+.related .product {
+        margin:0%;
+         margin:auto;
+         padding-right:0%;
+         padding-bottom:2%;
+}
+
+.related .type-product {
+    margin-bottom:5%;
+    background-color:#e2dbc0;
+}
+
+.related .product img {
+    width:100%;
+}
+
+.summary button {
+    width:100%;
+    border:none;
+    padding:5%;
+    background-color:#7E6D58;
+    color:white;
+    font-family: "DM Sans", sans-serif;
 }
 
 
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.related h2 {
+    font-size:2rem;
+}
+
+.products h2 {
+    font-size:1rem;
+}
 
 .singleProductStyle h1 {
     color:black;
@@ -804,6 +1050,49 @@ margin-top:2%;
 }
 
 .woocommerce-noreviews {
+    display:none;
+}
+
+.summary .price {
+    font-weight:bolder;
+    font-size:1.2rem;
+    padding-bottom:1%;
+}
+
+
+/* SKALERBARHED DESKTOP */
+
+
+
+#desktopRisteriet {
+    display:none;
+}
+
+#mobileRisteriet {
+    display:block;
+}
+
+#mobilKaffeabonnement {
+    display:block;
+}
+
+#desktopKaffeabonnement {
+    display:none;
+}
+
+#mobilKurser {
+    display:block;
+}
+
+#desktopKurser {
+    display:none;
+}
+
+#kontaktMobil {
+    display:block;
+}
+
+#kontaktDesktop {
     display:none;
 }
 }
