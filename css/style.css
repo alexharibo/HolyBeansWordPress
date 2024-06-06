@@ -52,7 +52,7 @@ height:30%;
 
 #kaffeabonnementPic {
  
-        width:60%;
+        width:80%;
         height:60vh;
         border-radius:5px;
         padding-top:5%;
@@ -82,7 +82,7 @@ height:30%;
     position:absolute;
     z-index:2;
     background-color:#e5e0d2;
-    width:10%;
+    width:12%;
     padding:1%;
 }
 
