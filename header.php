@@ -80,7 +80,8 @@
 <div class="websiteDrop">
  <li>Erhverv <i class="fa-solid fa-chevron-down"></i></li> 
             <div class="websiteDropContent">
-           <div id="menu">  <a href="<?php echo site_url('firmaevents') ?>">Firmaevents</a></div>
+           <div id="menu">  <a href="<?php echo site_url('kaffelosning') ?>">Kaffeløsning til kontor</a></div>
+           <div id="menu">  <a href="<?php echo site_url('kaffe-til-cafe-og-restaurant') ?>">Kaffe til café og restaurant</a></div>
 
 </div>
 </div>
@@ -196,7 +197,8 @@
         </div>
 
         <div id="moreMobileNAV">
-        <div id="menu">  <a href="<?php echo site_url('firmaevents') ?>">Firmaevents</a></div>
+        <div id="menu">  <a href="<?php echo site_url('kaffelosning') ?>">Kaffeløsning til kontor</a></div>
+        <div id="menu">  <a href="<?php echo site_url('kaffe-til-cafe-og-restaurant') ?>">Kaffe til café og restaurant</a></div>
 
 
 </div>

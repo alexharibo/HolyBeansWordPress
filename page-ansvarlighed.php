@@ -17,9 +17,9 @@
 </div>
 
 <div id="introGridTekst">
-<p>Bæredygtighed for os handler også om lokale projekter, som kan være med til at sætte fokus på uddannelse, kvinders rettigheder, klima og miljø samt minimering af spild. I bund og grund handler det om sund fornuft og det at have hjertet på rette sted uanset, om vi snakker den lokale kaffefarmer, vores kunder eller klima.</p>
-<p>Vi ved også, at vi har påbegyndt en lang rejse mod en mere ansvarlig måde at drive mikroristeri på. Vi kan ikke ændre verden alene, men de små skridt, vi tager sammen, kan gøre en forskel. </p>
-<p>Et af vores fokusområder i disse år er vores brug af emballage. Derfor har vi for eksempel skiftet vores hvide poser over til genanvendelige hvide poser. Det vil sige, de nu kan sorteres med plastik frem for restaffald. Et andet tiltag er vores nyopstartede samarbejde med RE-ZIP, som er cirkulær emballage til vores forsendelser. Hvis du vil vide mere om RE-ZIP cirkulær emballage kan du læse mere nedenfor.</p>
+<p><?php echo get_field("ansvarlighedTekst1"); ?></p>
+<p><?php echo get_field("ansvarlighedTekst2"); ?></p>
+<p><?php echo get_field("ansvarlighedTekst3"); ?></p>
 </div>
 
 </div>
@@ -27,11 +27,11 @@
 
 <section class="desktopRisterietIntro2">
     <div id="introGridIMG2">
-<img src="<?php the_post_thumbnail_url(); ?>">
+<img src="<?php echo get_field("rezipImg"); ?>">
 </div>
 
 <div id="desktopRisterietIntro2txt">
-<h2>Re-Zip</h2>
+<h2>Sammen siger vi nej tak til engangsemballage</h2>
 </div>
 
 <div id="desktopRisterietIntro2txt">
